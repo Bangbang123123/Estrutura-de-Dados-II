@@ -1,8 +1,11 @@
 package listas_lineares;
 
-public class ListaDupla {
+import comparacao.EstruturaDados;
+
+public class ListaDupla implements EstruturaDados{
 	public NodoDuplo inicio;
 	public NodoDuplo fim;
+	private int tamanhoAtual = 0;
 	
 	public ListaDupla() {
 		inicio = null;
@@ -26,20 +29,65 @@ public class ListaDupla {
 	public boolean vazia() {
 		return inicio == null;
 	}
+
+	@Override
+	public void limpar() {
+		inicio = null;
+		fim = null;
+		tamanhoAtual = 0;
+	}
+
+	@Override
+	public int tamanho() {
+		return tamanhoAtual;
+	}
+
+	@Override
+    public boolean inserir(int valor) {
+		if (buscar(valor)) return false;
+		tamanhoAtual++;
+		return inserirInicio(valor);
+	}
+
+	@Override
+    public boolean buscar(int valor) {
+        NodoDuplo atual = inicio;
+        while (atual != null) {
+            if (atual.getDado() == valor) {
+                return true;
+            }
+            atual = atual.getProx();
+        }
+        return false;
+    }
+    
+    @Override
+    public int consultarIntervalo(int min, int max) {
+        int count = 0;
+        NodoDuplo atual = inicio;
+        while (atual != null) {
+            if (atual.getDado() >= min && atual.getDado() <= max) {
+                count++;
+            }
+            atual = atual.getProx();
+        }
+        return count;
+    }
+
 	
-	
-	public void inserirInicio(int dado) {
+	public boolean inserirInicio(int dado) {
 		NodoDuplo novoNodo = new NodoDuplo(dado);
 		
 		if (vazia()) {
 			inicio = novoNodo;
 			fim = novoNodo;
-			return;
+			return true;
 		}
 		
 		novoNodo.setProx(inicio);
 		inicio.setAnt(novoNodo);
 		inicio = novoNodo;
+		return true;
 	}
 	
 	public void inserirFim(int dado) {
@@ -57,25 +105,29 @@ public class ListaDupla {
 		fim = novoNodo;
 	}
 	
-	public void removerValor(int valor) {
-		if (vazia()) return;
+	@Override 
+	public boolean remover(int valor) {
+		if (vazia()) return false;
 		
 		if (inicio.getDado() == valor) {
 			if (inicio == fim) {
 				inicio = null;
 				fim = null;
-				return;
+				tamanhoAtual--;
+				return true;
 			}
 			
 			inicio = inicio.getProx();
 			inicio.setAnt(null);
-			return;
+			tamanhoAtual--;
+			return true;
 		}
 		if (fim.getDado() == valor) {
 			
 			fim = fim.getAnt();
 			fim.setProx(null);
-			return;
+			tamanhoAtual--;
+			return true;
 		}
 		
 		NodoDuplo aux = inicio.getProx();
@@ -83,12 +135,15 @@ public class ListaDupla {
 			if (aux.getDado() == valor) {
 				aux.getAnt().setProx(aux.getProx());
 				aux.getProx().setAnt(aux.getAnt());
-				return;
+				tamanhoAtual--;
+				return true;
 			}
 			aux = aux.getProx();
 		}
+
+		return false;
 	}
-	
+
 	public String maiorMenor() {
 		if (vazia()) {
 			return "Nenhum elemento\n";

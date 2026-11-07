@@ -1,6 +1,8 @@
 package arvores;
 
-public class ArvoreRubroNegra {
+import comparacao.EstruturaDados;
+
+public class ArvoreRubroNegra implements EstruturaDados{
 
 	private enum Cor {
 		VERMELHO,
@@ -20,20 +22,50 @@ public class ArvoreRubroNegra {
 	}
 	
 	private No raiz;
+	private int tamanhoAtual;
 	
 	public ArvoreRubroNegra() {
 		raiz = null;
 	}
+
+	@Override
+    public int consultarIntervalo(int min, int max) {
+        return consultarIntervaloRec(raiz, min, max);
+    }
+
+    private int consultarIntervaloRec(No atual, int min, int max) {
+        if (atual == null) {
+            return 0;
+        }
+
+        int count = 0;
+
+        if (atual.valor >= min && atual.valor <= max) {
+            count = 1;
+        }
+
+        if (atual.valor > min) {
+            count += consultarIntervaloRec(atual.esq, min, max);
+        }
+
+        if (atual.valor < max) {
+            count += consultarIntervaloRec(atual.dir, min, max);
+        }
+
+        return count;
+    }
 	
-	public void inserir(int valor) {
+	@Override
+	public boolean inserir(int valor) {
 		if (buscar(valor)) {
-			System.out.println("O valor "+ valor +" já está na árvore.");
-			return;
+			return false;
 		}
 		
 		No novoNo = new No(valor);
 		raiz = inserirNo(raiz, novoNo);
-		corrigirInsersao(novoNo);
+		corrigirInsercao(novoNo);
+		tamanhoAtual++;
+		return true;
 	}
 	
 	// Insere como em uma árvore binária de busca
@@ -53,7 +85,7 @@ public class ArvoreRubroNegra {
 		return atual;
 	}
 	
-	private void corrigirInsersao(No no) {
+	private void corrigirInsercao(No no) {
 		// A raiz será pinteda de preto ao final
 		// Nas demais posições, só há conflito quando o pai é vermelho
 		
@@ -61,7 +93,7 @@ public class ArvoreRubroNegra {
 			No pai = no.pai;
 			No avo = pai.pai;
 			
-			if (pai == avo.dir) {
+			if (pai == avo.esq) {
 				No tio = avo.dir;
 				
 				// Caso 1: Tio vermelho, recolore e continua pelo avô
@@ -123,7 +155,7 @@ public class ArvoreRubroNegra {
 		No novaRaiz = no.dir;
 		no.dir = novaRaiz.esq;
 		
-		if (novaRaiz .esq != null) {
+		if (novaRaiz.esq != null) {
 			novaRaiz.esq.pai = no;
 		}
 		
@@ -141,7 +173,7 @@ public class ArvoreRubroNegra {
 		no.pai = novaRaiz;
 	}
 	
-	public void rotacaoDireita(No no) {
+	private void rotacaoDireita(No no) {
 		No novaRaiz = no.esq;
 		no.esq = novaRaiz.dir;
 		
@@ -163,6 +195,7 @@ public class ArvoreRubroNegra {
 		no.pai = novaRaiz;
 	}
 	
+	@Override 
 	public boolean buscar(int valor) {
 		return buscarNo(raiz, valor) != null;
 	}
@@ -207,13 +240,15 @@ public class ArvoreRubroNegra {
 		}
 	}
 	
-	public void remover(int valor) {
+	@Override 
+	public boolean remover(int valor) {
         No no = buscarNo(raiz, valor);
         if (no == null) {
-            System.out.println("Valor " + valor + " não encontrado na árvore.");
-            return;
+            return false;
         }
         removerNo(no);
+		tamanhoAtual--;
+		return true;
     }
 
     private void removerNo(No no) {
@@ -277,72 +312,79 @@ public class ArvoreRubroNegra {
             if (no == pai.esq) {
                 No irmao = pai.dir;
 
-                // CASO 1: irmão vermelho. Transforma em irmão preto.
-                if (cor(irmao) == Cor.VERMELHO) {
-                    irmao.cor = Cor.PRETO;
-                    pai.cor = Cor.VERMELHO;
-                    rotacaoEsquerda(pai);
-                    irmao = pai.dir;
-                }
+				// CASO 1: irmão vermelho. Transforma em irmão preto.
+				if (cor(irmao) == Cor.VERMELHO) {
+					irmao.cor = Cor.PRETO;
+					pai.cor = Cor.VERMELHO;
+					rotacaoEsquerda(pai);
+					irmao = pai.dir;
+				}
 
-                // CASO 2: irmão preto e seus dois filhos pretos.
-                // Recolore o irmão e leva a correção para o pai.
-                if (cor(irmao.esq) == Cor.PRETO
-                        && cor(irmao.dir) == Cor.PRETO) {
-                    irmao.cor = Cor.VERMELHO;
-                    no = pai;
-                    pai = no.pai;
-                } else {
-                    // CASO 3: sobrinho distante preto e próximo vermelho.
-                    // A rotação transforma esta situação no caso 4.
-                    if (cor(irmao.dir) == Cor.PRETO) {
-                        irmao.esq.cor = Cor.PRETO;
-                        irmao.cor = Cor.VERMELHO;
-                        rotacaoDireita(irmao);
-                        irmao = pai.dir;
-                    }
+				// Se o irmão agora for null, ele é tratado como preto com filhos pretos (Caso 2)
+				if (irmao == null) {
+					no = pai;
+					pai = no.pai;
+				} else {
+					// CASO 2: irmão preto e seus dois filhos pretos.
+					if (cor(irmao.esq) == Cor.PRETO && cor(irmao.dir) == Cor.PRETO) {
+						irmao.cor = Cor.VERMELHO;
+						no = pai;
+						pai = no.pai;
+					} else {
+						// CASO 3: sobrinho distante preto e próximo vermelho.
+						if (cor(irmao.dir) == Cor.PRETO) {
+							if (irmao.esq != null) irmao.esq.cor = Cor.PRETO;
+							irmao.cor = Cor.VERMELHO;
+							rotacaoDireita(irmao);
+							irmao = pai.dir;
+						}
 
-                    // CASO 4: sobrinho distante vermelho.
-                    irmao.cor = pai.cor;
-                    pai.cor = Cor.PRETO;
-                    irmao.dir.cor = Cor.PRETO;
-                    rotacaoEsquerda(pai);
-                    no = raiz; // Encerra o laço: correção concluída.
-                }
+						// CASO 4: sobrinho distante vermelho.
+						irmao.cor = pai.cor;
+						pai.cor = Cor.PRETO;
+						if (irmao.dir != null) irmao.dir.cor = Cor.PRETO;
+						rotacaoEsquerda(pai);
+						no = raiz; // Encerra o laço: correção concluída.
+					}
+				}
             } else {
-                // Casos simétricos: no ocupa a posição de filho direito.
                 No irmao = pai.esq;
 
-                // CASO 1: irmão vermelho.
-                if (cor(irmao) == Cor.VERMELHO) {
-                    irmao.cor = Cor.PRETO;
-                    pai.cor = Cor.VERMELHO;
-                    rotacaoDireita(pai);
-                    irmao = pai.esq;
-                }
+				// CASO 1: irmão vermelho.
+				if (cor(irmao) == Cor.VERMELHO) {
+					irmao.cor = Cor.PRETO;
+					pai.cor = Cor.VERMELHO;
+					rotacaoDireita(pai);
+					irmao = pai.esq;
+				}
 
-                // CASO 2: irmão preto e seus dois filhos pretos.
-                if (cor(irmao.dir) == Cor.PRETO
-                        && cor(irmao.esq) == Cor.PRETO) {
-                    irmao.cor = Cor.VERMELHO;
-                    no = pai;
-                    pai = no.pai;
-                } else {
-                    // CASO 3: sobrinho distante preto e próximo vermelho.
-                    if (cor(irmao.esq) == Cor.PRETO) {
-                        irmao.dir.cor = Cor.PRETO;
-                        irmao.cor = Cor.VERMELHO;
-                        rotacaoEsquerda(irmao);
-                        irmao = pai.esq;
-                    }
+				// Se o irmão agora for null, trata como Caso 2
+				if (irmao == null) {
+					no = pai;
+					pai = no.pai;
+				} else {
+					// CASO 2: irmão preto e seus dois filhos pretos.
+					if (cor(irmao.dir) == Cor.PRETO && cor(irmao.esq) == Cor.PRETO) {
+						irmao.cor = Cor.VERMELHO;
+						no = pai;
+						pai = no.pai;
+					} else {
+						// CASO 3: sobrinho distante preto e próximo vermelho.
+						if (cor(irmao.esq) == Cor.PRETO) {
+							if (irmao.dir != null) irmao.dir.cor = Cor.PRETO;
+							irmao.cor = Cor.VERMELHO;
+							rotacaoEsquerda(irmao);
+							irmao = pai.esq;
+						}
 
-                    // CASO 4: sobrinho distante vermelho.
-                    irmao.cor = pai.cor;
-                    pai.cor = Cor.PRETO;
-                    irmao.esq.cor = Cor.PRETO;
-                    rotacaoDireita(pai);
-                    no = raiz;
-                }
+						// CASO 4: sobrinho distante vermelho.
+						irmao.cor = pai.cor;
+						pai.cor = Cor.PRETO;
+						if (irmao.esq != null) irmao.esq.cor = Cor.PRETO;
+						rotacaoDireita(pai);
+						no = raiz;
+					}
+				}
             }
         }
 
@@ -352,4 +394,15 @@ public class ArvoreRubroNegra {
             no.cor = Cor.PRETO;
         }
     }
+
+	@Override 
+	public int tamanho() {
+		return tamanhoAtual;
+	}
+
+	@Override
+	public void limpar() {
+		raiz = null;
+		tamanhoAtual = 0;
+	}
 }

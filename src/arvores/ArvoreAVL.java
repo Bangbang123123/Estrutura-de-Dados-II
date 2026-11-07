@@ -1,6 +1,8 @@
 package arvores;
 
-public class ArvoreAVL {
+import comparacao.EstruturaDados;
+
+public class ArvoreAVL implements EstruturaDados{
 
 	private class No {
 		private int valor;
@@ -16,17 +18,22 @@ public class ArvoreAVL {
 	}
 	
 	private No raiz;
+	private int tamanhoAtual = 0;
 	
 	public ArvoreAVL() {
 		this.raiz = null;
 	}
 	
-	public void inserirNo(int valor) {
+	@Override 
+	public boolean inserir(int valor) {
+		int tamanho = tamanhoAtual;
 		raiz = inserirNo(raiz, valor);
+		return tamanho + 1 == tamanhoAtual;
 	}
-	
+
 	private No inserirNo(No atual, int valor) {
 		if (atual == null) {
+			tamanhoAtual++;
 			return new No(valor);
 		}
 		
@@ -55,7 +62,7 @@ public class ArvoreAVL {
 			if (atual.dir.alturaDir >= atual.dir.alturaEsq) {
 				return rotacaoEsquerda(atual);
 			} else {
-				atual.dir = rotacaoDireita(atual);
+				atual.dir = rotacaoDireita(atual.dir);
 				return rotacaoEsquerda(atual);
 			}
 		} else if (fatorBalanceamento == -2) {
@@ -74,6 +81,10 @@ public class ArvoreAVL {
 	}
 
 	private No rotacaoEsquerda(No raiz) {
+		if (raiz == null || raiz.dir == null) {
+			return raiz;
+		}
+
 		No novaRaiz = raiz.dir;
 		raiz.dir = novaRaiz.esq;
 		novaRaiz.esq = raiz;
@@ -86,6 +97,10 @@ public class ArvoreAVL {
 	}
 	
 	private No rotacaoDireita(No raiz) {
+		if (raiz == null || raiz.esq == null) {
+			return raiz;
+		}
+
 		No novaRaiz = raiz.esq;  //Filho esquerdo se torna nova raiz
 		raiz.esq = novaRaiz.dir;
 		novaRaiz.dir = raiz;
@@ -117,11 +132,21 @@ public class ArvoreAVL {
 		}
 	}
 	
-	public void remover(int valor) {
-		remover(raiz, valor);
+	@Override 
+	public boolean remover(int valor) {
+		if (!buscar(valor)) {
+			return false;
+		}
+		
+		int tamanho = tamanhoAtual;
+		raiz = remover(raiz, valor);
+		return tamanho-1 == tamanhoAtual;
 	}
 	
 	private No remover(No no, int valor) {
+		if (no == null) {
+			return null;
+		}
 		// Procurando pelo No
 		
 		if (valor < no.valor) {
@@ -154,7 +179,65 @@ public class ArvoreAVL {
 		atualizarAlturas(no);
 		return balancear(no);
 	}
+
 	
+	@Override 
+	public boolean buscar(int valor) {
+		No atual = raiz;
+        
+        while (atual != null) {
+            if (valor == atual.valor) {
+                return true;
+            }
+            
+            if (valor < atual.valor) {
+                atual = atual.esq;
+            } else {
+                atual = atual.dir;
+            }
+        }
+        
+        return false;
+	}
+
+	@Override
+    public int consultarIntervalo(int min, int max) {
+        return consultarIntervaloRec(raiz, min, max);
+    }
+
+    private int consultarIntervaloRec(No atual, int min, int max) {
+        if (atual == null) {
+            return 0;
+        }
+
+        int count = 0;
+
+        if (atual.valor >= min && atual.valor <= max) {
+            count = 1;
+        }
+
+        if (atual.valor > min) {
+            count += consultarIntervaloRec(atual.esq, min, max);
+        }
+
+        if (atual.valor < max) {
+            count += consultarIntervaloRec(atual.dir, min, max);
+        }
+
+        return count;
+    }
+
+	@Override 
+	public int tamanho() {
+		return tamanhoAtual;
+	}
+
+	@Override
+	public void limpar() {
+		raiz = null;
+		tamanhoAtual = 0;
+	}
+
 	private No encontrarMenor(No no) {
 		while (no.esq != null) {
 			no = no.esq;

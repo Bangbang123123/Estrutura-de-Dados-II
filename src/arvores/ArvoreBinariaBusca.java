@@ -1,7 +1,9 @@
 package arvores;
 
+import comparacao.EstruturaDados;
 
-public class ArvoreBinariaBusca {
+
+public class ArvoreBinariaBusca implements EstruturaDados{
 
 	public class No {
 		private int valor;
@@ -16,41 +18,44 @@ public class ArvoreBinariaBusca {
 		
 	}
 	
-	No raiz;
+	public No raiz;
+	private int tamanhoAtual = 0;
 	
-	public void inserir(int valor) {
-		raiz = inserir(raiz, valor);
-	}
-	
-	public No inserir(No no, int valor) {
-		if (no == null) {
-			no = new No(valor);
-			return no;
+	@Override
+	public boolean inserir(int valor) {
+		if (raiz == null) {
+			raiz = new No(valor);
+			tamanhoAtual++;
+			return true;
 		}
-		
-		if (valor < no.valor) {
-			no.esquerdo = inserir(no.esquerdo, valor);
-		} else if (valor > no.valor) {
-			no.direito = inserir(no.direito, valor);
+
+		No atual = raiz;
+		No pai = atual;
+
+		while (atual != null) {
+			if (valor == atual.valor) {
+				return false;
+			}
+			pai = atual;
+			if (valor < atual.valor) {
+				atual = atual.esquerdo;
+			} else {
+				atual = atual.direito;
+			}
+		}
+
+		No novoNo = new No(valor);
+		if (valor < pai.valor) {
+			pai.esquerdo = novoNo;
 		} else {
-			System.out.println("O valor "+valor+" ja existe na arvore");
+			pai.direito = novoNo;
 		}
-		
-		return no;
+
+		tamanhoAtual++;
+		return true;
 	}
 	
-	public void emOrdem() {
-		emOrdem(raiz);
-	}
-	
-	private void emOrdem(No no) {
-		if (no != null) {
-			emOrdem(no.esquerdo);
-			System.out.println(no.valor);
-			emOrdem(no.direito);
-		}
-	}
-	
+	@Override 
 	public boolean buscar(int valor) {
 		No atual = raiz;
 		
@@ -68,49 +73,122 @@ public class ArvoreBinariaBusca {
 		
 		return false;
 	}
-	
-	public void remover(int valor) {
-		if (!buscar(valor)) {
-			System.out.println("Valor "+valor+" nao encontrado na arvore");
-			return;
-		}
-		
-		raiz = remover(raiz, valor);
-	}
-	
-	private No remover(No no, int valor) {
-		// Procurando pelo No
-		
-		if (valor < no.valor) {
-			no.esquerdo = remover(no.esquerdo, valor);
-		} else if (valor > no.valor) {
-			no.direito = remover(no.direito, valor);
-		} else {
-			// Caso 1: No folha
-			if (no.esquerdo == null && no.direito == null) {
-				return null;
+
+	@Override
+	public boolean remover(int valor) {
+		No atual = raiz;
+		No pai = atual;
+		boolean filhoEsquerdo = false;
+
+		// 1. Procurar o nó a ser removido e manter o rastro do pai
+		while (atual != null && atual.valor != valor) {
+			pai = atual;
+			if (valor < atual.valor) {
+				atual = atual.esquerdo;
+				filhoEsquerdo = true;
+			} else {
+				atual = atual.direito;
+				filhoEsquerdo = false;
 			}
-			
-			//Caso 2: possui somente um filho
-			if (no.esquerdo == null) {
-				return no.direito;
-			} else if (no.direito == null) {
-				return no.esquerdo;
-			}
-			
-			// Caso 3: possui filhos
-			No sucessor = encontrarMenor(no.direito);
-			
-			// Copia o valor do sucessor
-			no.valor = sucessor.valor;
-			
-			// Remover o sucessor da posicao original
-			no.direito = remover(no.direito, sucessor.valor);
 		}
-		
-		return no;
+
+		// Se o valor não foi encontrado na árvore
+		if (atual == null) {
+			return false;
+		}
+
+		// Caso 1: O nó não tem filho esquerdo (pode ter 0 ou 1 filho à direita)
+		if (atual.esquerdo == null) {
+			if (atual == raiz) {
+				raiz = atual.direito;
+			} else if (filhoEsquerdo) {
+				pai.esquerdo = atual.direito;
+			} else {
+				pai.direito = atual.direito;
+			}
+		}
+
+		// Caso 2: O nó não tem filho direito (tem 1 filho à esquerda)
+		else if (atual.direito == null) {
+			if (atual == raiz) {
+				raiz = atual.esquerdo;
+			} else if (filhoEsquerdo) {
+				pai.esquerdo = atual.esquerdo;
+			} else {
+				pai.direito = atual.esquerdo;
+			}
+		} 
+		// Caso 3: O nó possui dois filhos
+		else {
+			// Encontrar o sucessor (o menor valor na sub-árvore direita)
+			No sucessorPai = atual;
+			No sucessor = atual.direito;
+			
+			while (sucessor.esquerdo != null) {
+				sucessorPai = sucessor;
+				sucessor = sucessor.esquerdo;
+			}
+
+			// Copia o valor do sucessor para o nó atual
+			atual.valor = sucessor.valor;
+
+			// Remove o sucessor físico da posição original dele
+			// Como o sucessor nunca tem filho esquerdo, recaímos nos casos 1 ou 2 simples:
+			if (sucessorPai == atual) {
+				sucessorPai.direito = sucessor.direito;
+			} else {
+				sucessorPai.esquerdo = sucessor.direito;
+			}
+		}
+
+		tamanhoAtual--;
+		return true;
 	}
-	
+
+	@Override
+    public int consultarIntervalo(int min, int max) {
+		if (raiz == null) {
+			return 0;
+		}
+
+		int count = 0;
+		java.util.Deque<No> pilha = new java.util.ArrayDeque<>();
+		pilha.push(raiz);
+
+		while (!pilha.isEmpty()) {
+			No atual = pilha.pop();
+
+			// 1. Verifica se o valor do nó atual está dentro do intervalo [min, max]
+			if (atual.valor >= min && atual.valor <= max) {
+				count++;
+			}
+
+			// 2. Otimização da ABB: Só vai para a esquerda se houver chance de ter valores >= min
+			if (atual.valor > min && atual.esquerdo != null) {
+				pilha.push(atual.esquerdo);
+			}
+
+			// 3. Otimização da ABB: Só vai para a direita se houver chance de ter valores <= max
+			if (atual.valor < max && atual.direito != null) {
+				pilha.push(atual.direito);
+			}
+		}
+
+		return count;
+	}
+
+	@Override
+	public void limpar() {
+		raiz = null;
+		tamanhoAtual = 0;
+	}
+
+	@Override 
+	public int tamanho() {
+		return tamanhoAtual;
+	}
+
+
 	private No encontrarMenor(No no) {
 		while (no.esquerdo != null) {
 			no = no.esquerdo;

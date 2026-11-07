@@ -1,0 +1,1891 @@
+tamanho;ordem;estrutura;teste;repeticao;operacoes;tempo_ns
+5000;crescente;Array Normal;Construcao;1;5000;4155300
+5000;crescente;Array Normal;Construcao;2;5000;1779400
+5000;crescente;Array Normal;Construcao;3;5000;1689500
+5000;crescente;Array Normal;Construcao;4;5000;1689600
+5000;crescente;Array Normal;Construcao;5;5000;1681100
+5000;crescente;Array Normal;BuscaPresente;1;2000;751000
+5000;crescente;Array Normal;BuscaPresente;2;2000;730800
+5000;crescente;Array Normal;BuscaPresente;3;2000;727200
+5000;crescente;Array Normal;BuscaPresente;4;2000;728500
+5000;crescente;Array Normal;BuscaPresente;5;2000;727300
+5000;crescente;Array Normal;BuscaAusente;1;2000;1290200
+5000;crescente;Array Normal;BuscaAusente;2;2000;1431400
+5000;crescente;Array Normal;BuscaAusente;3;2000;1286800
+5000;crescente;Array Normal;BuscaAusente;4;2000;1284600
+5000;crescente;Array Normal;BuscaAusente;5;2000;1280900
+5000;crescente;Array Normal;Insercao;1;500;412700
+5000;crescente;Array Normal;Insercao;2;500;481400
+5000;crescente;Array Normal;Insercao;3;500;349400
+5000;crescente;Array Normal;Insercao;4;500;342500
+5000;crescente;Array Normal;Insercao;5;500;342400
+5000;crescente;Array Normal;Remocao;1;500;5854000
+5000;crescente;Array Normal;Remocao;2;500;230900
+5000;crescente;Array Normal;Remocao;3;500;221200
+5000;crescente;Array Normal;Remocao;4;500;220300
+5000;crescente;Array Normal;Remocao;5;500;227300
+5000;crescente;Array Normal;ConsultaIntervalo;1;200;365600
+5000;crescente;Array Normal;ConsultaIntervalo;2;200;305300
+5000;crescente;Array Normal;ConsultaIntervalo;3;200;435400
+5000;crescente;Array Normal;ConsultaIntervalo;4;200;301200
+5000;crescente;Array Normal;ConsultaIntervalo;5;200;290600
+5000;crescente;Array Ordenado;Construcao;1;5000;204700
+5000;crescente;Array Ordenado;Construcao;2;5000;171300
+5000;crescente;Array Ordenado;Construcao;3;5000;166700
+5000;crescente;Array Ordenado;Construcao;4;5000;168000
+5000;crescente;Array Ordenado;Construcao;5;5000;159400
+5000;crescente;Array Ordenado;BuscaPresente;1;2000;190000
+5000;crescente;Array Ordenado;BuscaPresente;2;2000;190600
+5000;crescente;Array Ordenado;BuscaPresente;3;2000;175600
+5000;crescente;Array Ordenado;BuscaPresente;4;2000;173100
+5000;crescente;Array Ordenado;BuscaPresente;5;2000;180200
+5000;crescente;Array Ordenado;BuscaAusente;1;2000;196200
+5000;crescente;Array Ordenado;BuscaAusente;2;2000;195400
+5000;crescente;Array Ordenado;BuscaAusente;3;2000;182700
+5000;crescente;Array Ordenado;BuscaAusente;4;2000;129400
+5000;crescente;Array Ordenado;BuscaAusente;5;2000;113900
+5000;crescente;Array Ordenado;Insercao;1;500;1346700
+5000;crescente;Array Ordenado;Insercao;2;500;1175800
+5000;crescente;Array Ordenado;Insercao;3;500;1296100
+5000;crescente;Array Ordenado;Insercao;4;500;1246700
+5000;crescente;Array Ordenado;Insercao;5;500;2409100
+5000;crescente;Array Ordenado;Remocao;1;500;1640500
+5000;crescente;Array Ordenado;Remocao;2;500;4412000
+5000;crescente;Array Ordenado;Remocao;3;500;80100
+5000;crescente;Array Ordenado;Remocao;4;500;74200
+5000;crescente;Array Ordenado;Remocao;5;500;74000
+5000;crescente;Array Ordenado;ConsultaIntervalo;1;200;1044000
+5000;crescente;Array Ordenado;ConsultaIntervalo;2;200;1966100
+5000;crescente;Array Ordenado;ConsultaIntervalo;3;200;800700
+5000;crescente;Array Ordenado;ConsultaIntervalo;4;200;137400
+5000;crescente;Array Ordenado;ConsultaIntervalo;5;200;136700
+5000;crescente;Lista Encadeada Dupla;Construcao;1;5000;22472300
+5000;crescente;Lista Encadeada Dupla;Construcao;2;5000;22885000
+5000;crescente;Lista Encadeada Dupla;Construcao;3;5000;20052400
+5000;crescente;Lista Encadeada Dupla;Construcao;4;5000;15018100
+5000;crescente;Lista Encadeada Dupla;Construcao;5;5000;15175700
+5000;crescente;Lista Encadeada Dupla;BuscaPresente;1;2000;10361000
+5000;crescente;Lista Encadeada Dupla;BuscaPresente;2;2000;6539700
+5000;crescente;Lista Encadeada Dupla;BuscaPresente;3;2000;5826500
+5000;crescente;Lista Encadeada Dupla;BuscaPresente;4;2000;6126600
+5000;crescente;Lista Encadeada Dupla;BuscaPresente;5;2000;6170500
+5000;crescente;Lista Encadeada Dupla;BuscaAusente;1;2000;11537800
+5000;crescente;Lista Encadeada Dupla;BuscaAusente;2;2000;12744100
+5000;crescente;Lista Encadeada Dupla;BuscaAusente;3;2000;11641400
+5000;crescente;Lista Encadeada Dupla;BuscaAusente;4;2000;11496000
+5000;crescente;Lista Encadeada Dupla;BuscaAusente;5;2000;11573600
+5000;crescente;Lista Encadeada Dupla;Insercao;1;500;2961400
+5000;crescente;Lista Encadeada Dupla;Insercao;2;500;3093400
+5000;crescente;Lista Encadeada Dupla;Insercao;3;500;3137600
+5000;crescente;Lista Encadeada Dupla;Insercao;4;500;3082900
+5000;crescente;Lista Encadeada Dupla;Insercao;5;500;3074400
+5000;crescente;Lista Encadeada Dupla;Remocao;1;500;2477700
+5000;crescente;Lista Encadeada Dupla;Remocao;2;500;1423700
+5000;crescente;Lista Encadeada Dupla;Remocao;3;500;1402800
+5000;crescente;Lista Encadeada Dupla;Remocao;4;500;1385600
+5000;crescente;Lista Encadeada Dupla;Remocao;5;500;1389600
+5000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;1;200;1210900
+5000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;2;200;1225600
+5000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;3;200;1156600
+5000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;4;200;1145600
+5000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;5;200;1168800
+5000;crescente;Tabela Hash;Construcao;1;5000;367200
+5000;crescente;Tabela Hash;Construcao;2;5000;379100
+5000;crescente;Tabela Hash;Construcao;3;5000;371700
+5000;crescente;Tabela Hash;Construcao;4;5000;358400
+5000;crescente;Tabela Hash;Construcao;5;5000;370200
+5000;crescente;Tabela Hash;BuscaPresente;1;2000;95400
+5000;crescente;Tabela Hash;BuscaPresente;2;2000;87600
+5000;crescente;Tabela Hash;BuscaPresente;3;2000;87200
+5000;crescente;Tabela Hash;BuscaPresente;4;2000;92300
+5000;crescente;Tabela Hash;BuscaPresente;5;2000;91300
+5000;crescente;Tabela Hash;BuscaAusente;1;2000;70000
+5000;crescente;Tabela Hash;BuscaAusente;2;2000;56900
+5000;crescente;Tabela Hash;BuscaAusente;3;2000;59200
+5000;crescente;Tabela Hash;BuscaAusente;4;2000;53800
+5000;crescente;Tabela Hash;BuscaAusente;5;2000;53000
+5000;crescente;Tabela Hash;Insercao;1;500;37300
+5000;crescente;Tabela Hash;Insercao;2;500;23100
+5000;crescente;Tabela Hash;Insercao;3;500;30200
+5000;crescente;Tabela Hash;Insercao;4;500;30200
+5000;crescente;Tabela Hash;Insercao;5;500;17300
+5000;crescente;Tabela Hash;Remocao;1;500;40100
+5000;crescente;Tabela Hash;Remocao;2;500;42900
+5000;crescente;Tabela Hash;Remocao;3;500;41400
+5000;crescente;Tabela Hash;Remocao;4;500;30700
+5000;crescente;Tabela Hash;Remocao;5;500;17600
+5000;crescente;Tabela Hash;ConsultaIntervalo;1;200;1247000
+5000;crescente;Tabela Hash;ConsultaIntervalo;2;200;1202100
+5000;crescente;Tabela Hash;ConsultaIntervalo;3;200;1199300
+5000;crescente;Tabela Hash;ConsultaIntervalo;4;200;1571200
+5000;crescente;Tabela Hash;ConsultaIntervalo;5;200;1203300
+5000;crescente;Arvore Binária de Busca;Construcao;1;5000;17107300
+5000;crescente;Arvore Binária de Busca;Construcao;2;5000;15229000
+5000;crescente;Arvore Binária de Busca;Construcao;3;5000;15195600
+5000;crescente;Arvore Binária de Busca;Construcao;4;5000;15359000
+5000;crescente;Arvore Binária de Busca;Construcao;5;5000;15177200
+5000;crescente;Arvore Binária de Busca;BuscaPresente;1;2000;5484200
+5000;crescente;Arvore Binária de Busca;BuscaPresente;2;2000;5540700
+5000;crescente;Arvore Binária de Busca;BuscaPresente;3;2000;5527200
+5000;crescente;Arvore Binária de Busca;BuscaPresente;4;2000;5490500
+5000;crescente;Arvore Binária de Busca;BuscaPresente;5;2000;5489800
+5000;crescente;Arvore Binária de Busca;BuscaAusente;1;2000;5646400
+5000;crescente;Arvore Binária de Busca;BuscaAusente;2;2000;5663200
+5000;crescente;Arvore Binária de Busca;BuscaAusente;3;2000;5681600
+5000;crescente;Arvore Binária de Busca;BuscaAusente;4;2000;5639600
+5000;crescente;Arvore Binária de Busca;BuscaAusente;5;2000;5548800
+5000;crescente;Arvore Binária de Busca;Insercao;1;500;1453200
+5000;crescente;Arvore Binária de Busca;Insercao;2;500;1432600
+5000;crescente;Arvore Binária de Busca;Insercao;3;500;1420100
+5000;crescente;Arvore Binária de Busca;Insercao;4;500;1434500
+5000;crescente;Arvore Binária de Busca;Insercao;5;500;1426800
+5000;crescente;Arvore Binária de Busca;Remocao;1;500;1295100
+5000;crescente;Arvore Binária de Busca;Remocao;2;500;1275700
+5000;crescente;Arvore Binária de Busca;Remocao;3;500;1280400
+5000;crescente;Arvore Binária de Busca;Remocao;4;500;1265700
+5000;crescente;Arvore Binária de Busca;Remocao;5;500;1282300
+5000;crescente;Arvore Binária de Busca;ConsultaIntervalo;1;200;774800
+5000;crescente;Arvore Binária de Busca;ConsultaIntervalo;2;200;862700
+5000;crescente;Arvore Binária de Busca;ConsultaIntervalo;3;200;751900
+5000;crescente;Arvore Binária de Busca;ConsultaIntervalo;4;200;750900
+5000;crescente;Arvore Binária de Busca;ConsultaIntervalo;5;200;774800
+5000;crescente;Arvore AVL;Construcao;1;5000;724200
+5000;crescente;Arvore AVL;Construcao;2;5000;673900
+5000;crescente;Arvore AVL;Construcao;3;5000;589100
+5000;crescente;Arvore AVL;Construcao;4;5000;256600
+5000;crescente;Arvore AVL;Construcao;5;5000;239300
+5000;crescente;Arvore AVL;BuscaPresente;1;2000;184700
+5000;crescente;Arvore AVL;BuscaPresente;2;2000;142700
+5000;crescente;Arvore AVL;BuscaPresente;3;2000;115500
+5000;crescente;Arvore AVL;BuscaPresente;4;2000;111000
+5000;crescente;Arvore AVL;BuscaPresente;5;2000;105000
+5000;crescente;Arvore AVL;BuscaAusente;1;2000;216100
+5000;crescente;Arvore AVL;BuscaAusente;2;2000;146900
+5000;crescente;Arvore AVL;BuscaAusente;3;2000;159600
+5000;crescente;Arvore AVL;BuscaAusente;4;2000;137700
+5000;crescente;Arvore AVL;BuscaAusente;5;2000;112200
+5000;crescente;Arvore AVL;Insercao;1;500;126400
+5000;crescente;Arvore AVL;Insercao;2;500;90800
+5000;crescente;Arvore AVL;Insercao;3;500;113900
+5000;crescente;Arvore AVL;Insercao;4;500;137800
+5000;crescente;Arvore AVL;Insercao;5;500;89800
+5000;crescente;Arvore AVL;Remocao;1;500;164700
+5000;crescente;Arvore AVL;Remocao;2;500;110300
+5000;crescente;Arvore AVL;Remocao;3;500;140600
+5000;crescente;Arvore AVL;Remocao;4;500;118400
+5000;crescente;Arvore AVL;Remocao;5;500;130000
+5000;crescente;Arvore AVL;ConsultaIntervalo;1;200;229600
+5000;crescente;Arvore AVL;ConsultaIntervalo;2;200;136900
+5000;crescente;Arvore AVL;ConsultaIntervalo;3;200;120700
+5000;crescente;Arvore AVL;ConsultaIntervalo;4;200;74200
+5000;crescente;Arvore AVL;ConsultaIntervalo;5;200;49300
+5000;crescente;Arvore Rubro-Negra;Construcao;1;5000;774100
+5000;crescente;Arvore Rubro-Negra;Construcao;2;5000;799700
+5000;crescente;Arvore Rubro-Negra;Construcao;3;5000;890400
+5000;crescente;Arvore Rubro-Negra;Construcao;4;5000;932100
+5000;crescente;Arvore Rubro-Negra;Construcao;5;5000;762500
+5000;crescente;Arvore Rubro-Negra;BuscaPresente;1;2000;155400
+5000;crescente;Arvore Rubro-Negra;BuscaPresente;2;2000;157900
+5000;crescente;Arvore Rubro-Negra;BuscaPresente;3;2000;147000
+5000;crescente;Arvore Rubro-Negra;BuscaPresente;4;2000;154700
+5000;crescente;Arvore Rubro-Negra;BuscaPresente;5;2000;265100
+5000;crescente;Arvore Rubro-Negra;BuscaAusente;1;2000;175900
+5000;crescente;Arvore Rubro-Negra;BuscaAusente;2;2000;171000
+5000;crescente;Arvore Rubro-Negra;BuscaAusente;3;2000;165000
+5000;crescente;Arvore Rubro-Negra;BuscaAusente;4;2000;178400
+5000;crescente;Arvore Rubro-Negra;BuscaAusente;5;2000;190300
+5000;crescente;Arvore Rubro-Negra;Insercao;1;500;196000
+5000;crescente;Arvore Rubro-Negra;Insercao;2;500;170400
+5000;crescente;Arvore Rubro-Negra;Insercao;3;500;156700
+5000;crescente;Arvore Rubro-Negra;Insercao;4;500;185200
+5000;crescente;Arvore Rubro-Negra;Insercao;5;500;165300
+5000;crescente;Arvore Rubro-Negra;Remocao;1;500;172400
+5000;crescente;Arvore Rubro-Negra;Remocao;2;500;129300
+5000;crescente;Arvore Rubro-Negra;Remocao;3;500;144300
+5000;crescente;Arvore Rubro-Negra;Remocao;4;500;123100
+5000;crescente;Arvore Rubro-Negra;Remocao;5;500;122700
+5000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;1;200;167100
+5000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;2;200;71300
+5000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;3;200;49700
+5000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;4;200;42500
+5000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;5;200;40200
+5000;decrescente;Array Normal;Construcao;1;5000;1591900
+5000;decrescente;Array Normal;Construcao;2;5000;1571700
+5000;decrescente;Array Normal;Construcao;3;5000;1573500
+5000;decrescente;Array Normal;Construcao;4;5000;1571400
+5000;decrescente;Array Normal;Construcao;5;5000;1581800
+5000;decrescente;Array Normal;BuscaPresente;1;2000;703600
+5000;decrescente;Array Normal;BuscaPresente;2;2000;771600
+5000;decrescente;Array Normal;BuscaPresente;3;2000;832400
+5000;decrescente;Array Normal;BuscaPresente;4;2000;681200
+5000;decrescente;Array Normal;BuscaPresente;5;2000;678600
+5000;decrescente;Array Normal;BuscaAusente;1;2000;1389000
+5000;decrescente;Array Normal;BuscaAusente;2;2000;1237700
+5000;decrescente;Array Normal;BuscaAusente;3;2000;1279800
+5000;decrescente;Array Normal;BuscaAusente;4;2000;1225900
+5000;decrescente;Array Normal;BuscaAusente;5;2000;1238100
+5000;decrescente;Array Normal;Insercao;1;500;335500
+5000;decrescente;Array Normal;Insercao;2;500;324900
+5000;decrescente;Array Normal;Insercao;3;500;324300
+5000;decrescente;Array Normal;Insercao;4;500;322200
+5000;decrescente;Array Normal;Insercao;5;500;322000
+5000;decrescente;Array Normal;Remocao;1;500;204000
+5000;decrescente;Array Normal;Remocao;2;500;201400
+5000;decrescente;Array Normal;Remocao;3;500;200000
+5000;decrescente;Array Normal;Remocao;4;500;198300
+5000;decrescente;Array Normal;Remocao;5;500;197800
+5000;decrescente;Array Normal;ConsultaIntervalo;1;200;282500
+5000;decrescente;Array Normal;ConsultaIntervalo;2;200;309500
+5000;decrescente;Array Normal;ConsultaIntervalo;3;200;340400
+5000;decrescente;Array Normal;ConsultaIntervalo;4;200;291700
+5000;decrescente;Array Normal;ConsultaIntervalo;5;200;276900
+5000;decrescente;Array Ordenado;Construcao;1;5000;495700
+5000;decrescente;Array Ordenado;Construcao;2;5000;475300
+5000;decrescente;Array Ordenado;Construcao;3;5000;473200
+5000;decrescente;Array Ordenado;Construcao;4;5000;475700
+5000;decrescente;Array Ordenado;Construcao;5;5000;471300
+5000;decrescente;Array Ordenado;BuscaPresente;1;2000;103100
+5000;decrescente;Array Ordenado;BuscaPresente;2;2000;108300
+5000;decrescente;Array Ordenado;BuscaPresente;3;2000;123200
+5000;decrescente;Array Ordenado;BuscaPresente;4;2000;112800
+5000;decrescente;Array Ordenado;BuscaPresente;5;2000;102100
+5000;decrescente;Array Ordenado;BuscaAusente;1;2000;131800
+5000;decrescente;Array Ordenado;BuscaAusente;2;2000;115000
+5000;decrescente;Array Ordenado;BuscaAusente;3;2000;108300
+5000;decrescente;Array Ordenado;BuscaAusente;4;2000;101800
+5000;decrescente;Array Ordenado;BuscaAusente;5;2000;97100
+5000;decrescente;Array Ordenado;Insercao;1;500;97600
+5000;decrescente;Array Ordenado;Insercao;2;500;74300
+5000;decrescente;Array Ordenado;Insercao;3;500;88900
+5000;decrescente;Array Ordenado;Insercao;4;500;67000
+5000;decrescente;Array Ordenado;Insercao;5;500;65000
+5000;decrescente;Array Ordenado;Remocao;1;500;66400
+5000;decrescente;Array Ordenado;Remocao;2;500;58800
+5000;decrescente;Array Ordenado;Remocao;3;500;54900
+5000;decrescente;Array Ordenado;Remocao;4;500;53500
+5000;decrescente;Array Ordenado;Remocao;5;500;52600
+5000;decrescente;Array Ordenado;ConsultaIntervalo;1;200;128600
+5000;decrescente;Array Ordenado;ConsultaIntervalo;2;200;126100
+5000;decrescente;Array Ordenado;ConsultaIntervalo;3;200;125300
+5000;decrescente;Array Ordenado;ConsultaIntervalo;4;200;125000
+5000;decrescente;Array Ordenado;ConsultaIntervalo;5;200;127700
+5000;decrescente;Lista Encadeada Dupla;Construcao;1;5000;15053300
+5000;decrescente;Lista Encadeada Dupla;Construcao;2;5000;15079900
+5000;decrescente;Lista Encadeada Dupla;Construcao;3;5000;14942900
+5000;decrescente;Lista Encadeada Dupla;Construcao;4;5000;14977500
+5000;decrescente;Lista Encadeada Dupla;Construcao;5;5000;14950200
+5000;decrescente;Lista Encadeada Dupla;BuscaPresente;1;2000;5891200
+5000;decrescente;Lista Encadeada Dupla;BuscaPresente;2;2000;5903400
+5000;decrescente;Lista Encadeada Dupla;BuscaPresente;3;2000;5864500
+5000;decrescente;Lista Encadeada Dupla;BuscaPresente;4;2000;5872100
+5000;decrescente;Lista Encadeada Dupla;BuscaPresente;5;2000;5906000
+5000;decrescente;Lista Encadeada Dupla;BuscaAusente;1;2000;11546600
+5000;decrescente;Lista Encadeada Dupla;BuscaAusente;2;2000;11532400
+5000;decrescente;Lista Encadeada Dupla;BuscaAusente;3;2000;11553000
+5000;decrescente;Lista Encadeada Dupla;BuscaAusente;4;2000;11617300
+5000;decrescente;Lista Encadeada Dupla;BuscaAusente;5;2000;11513900
+5000;decrescente;Lista Encadeada Dupla;Insercao;1;500;2997300
+5000;decrescente;Lista Encadeada Dupla;Insercao;2;500;2975200
+5000;decrescente;Lista Encadeada Dupla;Insercao;3;500;3001400
+5000;decrescente;Lista Encadeada Dupla;Insercao;4;500;2993500
+5000;decrescente;Lista Encadeada Dupla;Insercao;5;500;2978300
+5000;decrescente;Lista Encadeada Dupla;Remocao;1;500;1343000
+5000;decrescente;Lista Encadeada Dupla;Remocao;2;500;1312900
+5000;decrescente;Lista Encadeada Dupla;Remocao;3;500;1310700
+5000;decrescente;Lista Encadeada Dupla;Remocao;4;500;1313200
+5000;decrescente;Lista Encadeada Dupla;Remocao;5;500;1305900
+5000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;1;200;1107000
+5000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;2;200;1098300
+5000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;3;200;1094400
+5000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;4;200;1123300
+5000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;5;200;1101800
+5000;decrescente;Tabela Hash;Construcao;1;5000;77000
+5000;decrescente;Tabela Hash;Construcao;2;5000;29200
+5000;decrescente;Tabela Hash;Construcao;3;5000;30300
+5000;decrescente;Tabela Hash;Construcao;4;5000;28100
+5000;decrescente;Tabela Hash;Construcao;5;5000;27700
+5000;decrescente;Tabela Hash;BuscaPresente;1;2000;15600
+5000;decrescente;Tabela Hash;BuscaPresente;2;2000;13200
+5000;decrescente;Tabela Hash;BuscaPresente;3;2000;11800
+5000;decrescente;Tabela Hash;BuscaPresente;4;2000;11400
+5000;decrescente;Tabela Hash;BuscaPresente;5;2000;11300
+5000;decrescente;Tabela Hash;BuscaAusente;1;2000;14600
+5000;decrescente;Tabela Hash;BuscaAusente;2;2000;11900
+5000;decrescente;Tabela Hash;BuscaAusente;3;2000;10900
+5000;decrescente;Tabela Hash;BuscaAusente;4;2000;10500
+5000;decrescente;Tabela Hash;BuscaAusente;5;2000;10600
+5000;decrescente;Tabela Hash;Insercao;1;500;10100
+5000;decrescente;Tabela Hash;Insercao;2;500;8300
+5000;decrescente;Tabela Hash;Insercao;3;500;7000
+5000;decrescente;Tabela Hash;Insercao;4;500;8000
+5000;decrescente;Tabela Hash;Insercao;5;500;6400
+5000;decrescente;Tabela Hash;Remocao;1;500;12800
+5000;decrescente;Tabela Hash;Remocao;2;500;12800
+5000;decrescente;Tabela Hash;Remocao;3;500;8600
+5000;decrescente;Tabela Hash;Remocao;4;500;7800
+5000;decrescente;Tabela Hash;Remocao;5;500;12500
+5000;decrescente;Tabela Hash;ConsultaIntervalo;1;200;1181100
+5000;decrescente;Tabela Hash;ConsultaIntervalo;2;200;1178600
+5000;decrescente;Tabela Hash;ConsultaIntervalo;3;200;1177100
+5000;decrescente;Tabela Hash;ConsultaIntervalo;4;200;1176900
+5000;decrescente;Tabela Hash;ConsultaIntervalo;5;200;1176700
+5000;decrescente;Arvore Binária de Busca;Construcao;1;5000;14417200
+5000;decrescente;Arvore Binária de Busca;Construcao;2;5000;14372200
+5000;decrescente;Arvore Binária de Busca;Construcao;3;5000;14314900
+5000;decrescente;Arvore Binária de Busca;Construcao;4;5000;14303700
+5000;decrescente;Arvore Binária de Busca;Construcao;5;5000;14400500
+5000;decrescente;Arvore Binária de Busca;BuscaPresente;1;2000;5904700
+5000;decrescente;Arvore Binária de Busca;BuscaPresente;2;2000;5561800
+5000;decrescente;Arvore Binária de Busca;BuscaPresente;3;2000;5687000
+5000;decrescente;Arvore Binária de Busca;BuscaPresente;4;2000;5776100
+5000;decrescente;Arvore Binária de Busca;BuscaPresente;5;2000;5807600
+5000;decrescente;Arvore Binária de Busca;BuscaAusente;1;2000;5739800
+5000;decrescente;Arvore Binária de Busca;BuscaAusente;2;2000;5555200
+5000;decrescente;Arvore Binária de Busca;BuscaAusente;3;2000;5649900
+5000;decrescente;Arvore Binária de Busca;BuscaAusente;4;2000;6150800
+5000;decrescente;Arvore Binária de Busca;BuscaAusente;5;2000;5658000
+5000;decrescente;Arvore Binária de Busca;Insercao;1;500;1485600
+5000;decrescente;Arvore Binária de Busca;Insercao;2;500;1477700
+5000;decrescente;Arvore Binária de Busca;Insercao;3;500;1478800
+5000;decrescente;Arvore Binária de Busca;Insercao;4;500;1470500
+5000;decrescente;Arvore Binária de Busca;Insercao;5;500;1473300
+5000;decrescente;Arvore Binária de Busca;Remocao;1;500;2385600
+5000;decrescente;Arvore Binária de Busca;Remocao;2;500;1269900
+5000;decrescente;Arvore Binária de Busca;Remocao;3;500;1270700
+5000;decrescente;Arvore Binária de Busca;Remocao;4;500;1309100
+5000;decrescente;Arvore Binária de Busca;Remocao;5;500;1288900
+5000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;1;200;1142200
+5000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;2;200;1128500
+5000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;3;200;1137600
+5000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;4;200;1199600
+5000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;5;200;1154400
+5000;decrescente;Arvore AVL;Construcao;1;5000;317500
+5000;decrescente;Arvore AVL;Construcao;2;5000;295600
+5000;decrescente;Arvore AVL;Construcao;3;5000;303400
+5000;decrescente;Arvore AVL;Construcao;4;5000;270400
+5000;decrescente;Arvore AVL;Construcao;5;5000;276200
+5000;decrescente;Arvore AVL;BuscaPresente;1;2000;143100
+5000;decrescente;Arvore AVL;BuscaPresente;2;2000;112500
+5000;decrescente;Arvore AVL;BuscaPresente;3;2000;118500
+5000;decrescente;Arvore AVL;BuscaPresente;4;2000;121000
+5000;decrescente;Arvore AVL;BuscaPresente;5;2000;103000
+5000;decrescente;Arvore AVL;BuscaAusente;1;2000;147900
+5000;decrescente;Arvore AVL;BuscaAusente;2;2000;125100
+5000;decrescente;Arvore AVL;BuscaAusente;3;2000;122300
+5000;decrescente;Arvore AVL;BuscaAusente;4;2000;123500
+5000;decrescente;Arvore AVL;BuscaAusente;5;2000;132200
+5000;decrescente;Arvore AVL;Insercao;1;500;56400
+5000;decrescente;Arvore AVL;Insercao;2;500;45600
+5000;decrescente;Arvore AVL;Insercao;3;500;39200
+5000;decrescente;Arvore AVL;Insercao;4;500;50600
+5000;decrescente;Arvore AVL;Insercao;5;500;34700
+5000;decrescente;Arvore AVL;Remocao;1;500;70700
+5000;decrescente;Arvore AVL;Remocao;2;500;57800
+5000;decrescente;Arvore AVL;Remocao;3;500;48300
+5000;decrescente;Arvore AVL;Remocao;4;500;58900
+5000;decrescente;Arvore AVL;Remocao;5;500;51800
+5000;decrescente;Arvore AVL;ConsultaIntervalo;1;200;61800
+5000;decrescente;Arvore AVL;ConsultaIntervalo;2;200;50500
+5000;decrescente;Arvore AVL;ConsultaIntervalo;3;200;93400
+5000;decrescente;Arvore AVL;ConsultaIntervalo;4;200;92900
+5000;decrescente;Arvore AVL;ConsultaIntervalo;5;200;87300
+5000;decrescente;Arvore Rubro-Negra;Construcao;1;5000;655200
+5000;decrescente;Arvore Rubro-Negra;Construcao;2;5000;658400
+5000;decrescente;Arvore Rubro-Negra;Construcao;3;5000;629900
+5000;decrescente;Arvore Rubro-Negra;Construcao;4;5000;602800
+5000;decrescente;Arvore Rubro-Negra;Construcao;5;5000;632800
+5000;decrescente;Arvore Rubro-Negra;BuscaPresente;1;2000;196800
+5000;decrescente;Arvore Rubro-Negra;BuscaPresente;2;2000;143200
+5000;decrescente;Arvore Rubro-Negra;BuscaPresente;3;2000;162600
+5000;decrescente;Arvore Rubro-Negra;BuscaPresente;4;2000;127000
+5000;decrescente;Arvore Rubro-Negra;BuscaPresente;5;2000;114100
+5000;decrescente;Arvore Rubro-Negra;BuscaAusente;1;2000;146100
+5000;decrescente;Arvore Rubro-Negra;BuscaAusente;2;2000;174400
+5000;decrescente;Arvore Rubro-Negra;BuscaAusente;3;2000;157000
+5000;decrescente;Arvore Rubro-Negra;BuscaAusente;4;2000;142200
+5000;decrescente;Arvore Rubro-Negra;BuscaAusente;5;2000;129200
+5000;decrescente;Arvore Rubro-Negra;Insercao;1;500;71100
+5000;decrescente;Arvore Rubro-Negra;Insercao;2;500;83200
+5000;decrescente;Arvore Rubro-Negra;Insercao;3;500;69500
+5000;decrescente;Arvore Rubro-Negra;Insercao;4;500;58600
+5000;decrescente;Arvore Rubro-Negra;Insercao;5;500;52500
+5000;decrescente;Arvore Rubro-Negra;Remocao;1;500;59800
+5000;decrescente;Arvore Rubro-Negra;Remocao;2;500;53700
+5000;decrescente;Arvore Rubro-Negra;Remocao;3;500;60000
+5000;decrescente;Arvore Rubro-Negra;Remocao;4;500;48400
+5000;decrescente;Arvore Rubro-Negra;Remocao;5;500;44100
+5000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;1;200;104100
+5000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;2;200;67700
+5000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;3;200;82900
+5000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;4;200;44900
+5000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;5;200;43600
+5000;aleatoria;Array Normal;Construcao;1;5000;1562000
+5000;aleatoria;Array Normal;Construcao;2;5000;1570300
+5000;aleatoria;Array Normal;Construcao;3;5000;1566700
+5000;aleatoria;Array Normal;Construcao;4;5000;1623000
+5000;aleatoria;Array Normal;Construcao;5;5000;1558400
+5000;aleatoria;Array Normal;BuscaPresente;1;2000;681200
+5000;aleatoria;Array Normal;BuscaPresente;2;2000;1356200
+5000;aleatoria;Array Normal;BuscaPresente;3;2000;1612600
+5000;aleatoria;Array Normal;BuscaPresente;4;2000;730100
+5000;aleatoria;Array Normal;BuscaPresente;5;2000;668100
+5000;aleatoria;Array Normal;BuscaAusente;1;2000;1895700
+5000;aleatoria;Array Normal;BuscaAusente;2;2000;1245400
+5000;aleatoria;Array Normal;BuscaAusente;3;2000;1255000
+5000;aleatoria;Array Normal;BuscaAusente;4;2000;1221700
+5000;aleatoria;Array Normal;BuscaAusente;5;2000;1222500
+5000;aleatoria;Array Normal;Insercao;1;500;337400
+5000;aleatoria;Array Normal;Insercao;2;500;325600
+5000;aleatoria;Array Normal;Insercao;3;500;330300
+5000;aleatoria;Array Normal;Insercao;4;500;370700
+5000;aleatoria;Array Normal;Insercao;5;500;323600
+5000;aleatoria;Array Normal;Remocao;1;500;206000
+5000;aleatoria;Array Normal;Remocao;2;500;209100
+5000;aleatoria;Array Normal;Remocao;3;500;200200
+5000;aleatoria;Array Normal;Remocao;4;500;443000
+5000;aleatoria;Array Normal;Remocao;5;500;210000
+5000;aleatoria;Array Normal;ConsultaIntervalo;1;200;1210600
+5000;aleatoria;Array Normal;ConsultaIntervalo;2;200;1197800
+5000;aleatoria;Array Normal;ConsultaIntervalo;3;200;1199500
+5000;aleatoria;Array Normal;ConsultaIntervalo;4;200;1175200
+5000;aleatoria;Array Normal;ConsultaIntervalo;5;200;1258400
+5000;aleatoria;Array Ordenado;Construcao;1;5000;554600
+5000;aleatoria;Array Ordenado;Construcao;2;5000;554100
+5000;aleatoria;Array Ordenado;Construcao;3;5000;499900
+5000;aleatoria;Array Ordenado;Construcao;4;5000;484600
+5000;aleatoria;Array Ordenado;Construcao;5;5000;494900
+5000;aleatoria;Array Ordenado;BuscaPresente;1;2000;121600
+5000;aleatoria;Array Ordenado;BuscaPresente;2;2000;97600
+5000;aleatoria;Array Ordenado;BuscaPresente;3;2000;97300
+5000;aleatoria;Array Ordenado;BuscaPresente;4;2000;99000
+5000;aleatoria;Array Ordenado;BuscaPresente;5;2000;96800
+5000;aleatoria;Array Ordenado;BuscaAusente;1;2000;111200
+5000;aleatoria;Array Ordenado;BuscaAusente;2;2000;107000
+5000;aleatoria;Array Ordenado;BuscaAusente;3;2000;108800
+5000;aleatoria;Array Ordenado;BuscaAusente;4;2000;108700
+5000;aleatoria;Array Ordenado;BuscaAusente;5;2000;117900
+5000;aleatoria;Array Ordenado;Insercao;1;500;84800
+5000;aleatoria;Array Ordenado;Insercao;2;500;74400
+5000;aleatoria;Array Ordenado;Insercao;3;500;79300
+5000;aleatoria;Array Ordenado;Insercao;4;500;73100
+5000;aleatoria;Array Ordenado;Insercao;5;500;71300
+5000;aleatoria;Array Ordenado;Remocao;1;500;66300
+5000;aleatoria;Array Ordenado;Remocao;2;500;64800
+5000;aleatoria;Array Ordenado;Remocao;3;500;64500
+5000;aleatoria;Array Ordenado;Remocao;4;500;64600
+5000;aleatoria;Array Ordenado;Remocao;5;500;63200
+5000;aleatoria;Array Ordenado;ConsultaIntervalo;1;200;126700
+5000;aleatoria;Array Ordenado;ConsultaIntervalo;2;200;125600
+5000;aleatoria;Array Ordenado;ConsultaIntervalo;3;200;125200
+5000;aleatoria;Array Ordenado;ConsultaIntervalo;4;200;124300
+5000;aleatoria;Array Ordenado;ConsultaIntervalo;5;200;124200
+5000;aleatoria;Lista Encadeada Dupla;Construcao;1;5000;15024500
+5000;aleatoria;Lista Encadeada Dupla;Construcao;2;5000;15186700
+5000;aleatoria;Lista Encadeada Dupla;Construcao;3;5000;14929000
+5000;aleatoria;Lista Encadeada Dupla;Construcao;4;5000;14992000
+5000;aleatoria;Lista Encadeada Dupla;Construcao;5;5000;14984300
+5000;aleatoria;Lista Encadeada Dupla;BuscaPresente;1;2000;6011500
+5000;aleatoria;Lista Encadeada Dupla;BuscaPresente;2;2000;5984500
+5000;aleatoria;Lista Encadeada Dupla;BuscaPresente;3;2000;5937900
+5000;aleatoria;Lista Encadeada Dupla;BuscaPresente;4;2000;5990300
+5000;aleatoria;Lista Encadeada Dupla;BuscaPresente;5;2000;5938100
+5000;aleatoria;Lista Encadeada Dupla;BuscaAusente;1;2000;11504500
+5000;aleatoria;Lista Encadeada Dupla;BuscaAusente;2;2000;11404500
+5000;aleatoria;Lista Encadeada Dupla;BuscaAusente;3;2000;11408800
+5000;aleatoria;Lista Encadeada Dupla;BuscaAusente;4;2000;11431600
+5000;aleatoria;Lista Encadeada Dupla;BuscaAusente;5;2000;11431000
+5000;aleatoria;Lista Encadeada Dupla;Insercao;1;500;2980400
+5000;aleatoria;Lista Encadeada Dupla;Insercao;2;500;2984200
+5000;aleatoria;Lista Encadeada Dupla;Insercao;3;500;2975400
+5000;aleatoria;Lista Encadeada Dupla;Insercao;4;500;2991900
+5000;aleatoria;Lista Encadeada Dupla;Insercao;5;500;2996800
+5000;aleatoria;Lista Encadeada Dupla;Remocao;1;500;1319400
+5000;aleatoria;Lista Encadeada Dupla;Remocao;2;500;1335400
+5000;aleatoria;Lista Encadeada Dupla;Remocao;3;500;1331800
+5000;aleatoria;Lista Encadeada Dupla;Remocao;4;500;1427500
+5000;aleatoria;Lista Encadeada Dupla;Remocao;5;500;1324500
+5000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;1;200;2077500
+5000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;2;200;2056300
+5000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;3;200;2078500
+5000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;4;200;2020200
+5000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;5;200;2046500
+5000;aleatoria;Tabela Hash;Construcao;1;5000;30500
+5000;aleatoria;Tabela Hash;Construcao;2;5000;74600
+5000;aleatoria;Tabela Hash;Construcao;3;5000;28900
+5000;aleatoria;Tabela Hash;Construcao;4;5000;27100
+5000;aleatoria;Tabela Hash;Construcao;5;5000;26600
+5000;aleatoria;Tabela Hash;BuscaPresente;1;2000;13600
+5000;aleatoria;Tabela Hash;BuscaPresente;2;2000;11300
+5000;aleatoria;Tabela Hash;BuscaPresente;3;2000;20400
+5000;aleatoria;Tabela Hash;BuscaPresente;4;2000;10600
+5000;aleatoria;Tabela Hash;BuscaPresente;5;2000;10400
+5000;aleatoria;Tabela Hash;BuscaAusente;1;2000;11400
+5000;aleatoria;Tabela Hash;BuscaAusente;2;2000;21700
+5000;aleatoria;Tabela Hash;BuscaAusente;3;2000;9900
+5000;aleatoria;Tabela Hash;BuscaAusente;4;2000;9500
+5000;aleatoria;Tabela Hash;BuscaAusente;5;2000;9200
+5000;aleatoria;Tabela Hash;Insercao;1;500;8300
+5000;aleatoria;Tabela Hash;Insercao;2;500;5900
+5000;aleatoria;Tabela Hash;Insercao;3;500;13100
+5000;aleatoria;Tabela Hash;Insercao;4;500;6200
+5000;aleatoria;Tabela Hash;Insercao;5;500;5500
+5000;aleatoria;Tabela Hash;Remocao;1;500;8400
+5000;aleatoria;Tabela Hash;Remocao;2;500;10600
+5000;aleatoria;Tabela Hash;Remocao;3;500;5100
+5000;aleatoria;Tabela Hash;Remocao;4;500;5300
+5000;aleatoria;Tabela Hash;Remocao;5;500;4700
+5000;aleatoria;Tabela Hash;ConsultaIntervalo;1;200;1269900
+5000;aleatoria;Tabela Hash;ConsultaIntervalo;2;200;1206300
+5000;aleatoria;Tabela Hash;ConsultaIntervalo;3;200;1205900
+5000;aleatoria;Tabela Hash;ConsultaIntervalo;4;200;1178200
+5000;aleatoria;Tabela Hash;ConsultaIntervalo;5;200;1173600
+5000;aleatoria;Arvore Binária de Busca;Construcao;1;5000;228500
+5000;aleatoria;Arvore Binária de Busca;Construcao;2;5000;225600
+5000;aleatoria;Arvore Binária de Busca;Construcao;3;5000;223500
+5000;aleatoria;Arvore Binária de Busca;Construcao;4;5000;221300
+5000;aleatoria;Arvore Binária de Busca;Construcao;5;5000;226200
+5000;aleatoria;Arvore Binária de Busca;BuscaPresente;1;2000;100400
+5000;aleatoria;Arvore Binária de Busca;BuscaPresente;2;2000;96900
+5000;aleatoria;Arvore Binária de Busca;BuscaPresente;3;2000;98700
+5000;aleatoria;Arvore Binária de Busca;BuscaPresente;4;2000;94500
+5000;aleatoria;Arvore Binária de Busca;BuscaPresente;5;2000;95000
+5000;aleatoria;Arvore Binária de Busca;BuscaAusente;1;2000;113300
+5000;aleatoria;Arvore Binária de Busca;BuscaAusente;2;2000;114600
+5000;aleatoria;Arvore Binária de Busca;BuscaAusente;3;2000;109800
+5000;aleatoria;Arvore Binária de Busca;BuscaAusente;4;2000;111600
+5000;aleatoria;Arvore Binária de Busca;BuscaAusente;5;2000;111700
+5000;aleatoria;Arvore Binária de Busca;Insercao;1;500;33600
+5000;aleatoria;Arvore Binária de Busca;Insercao;2;500;30800
+5000;aleatoria;Arvore Binária de Busca;Insercao;3;500;31100
+5000;aleatoria;Arvore Binária de Busca;Insercao;4;500;30000
+5000;aleatoria;Arvore Binária de Busca;Insercao;5;500;31200
+5000;aleatoria;Arvore Binária de Busca;Remocao;1;500;43800
+5000;aleatoria;Arvore Binária de Busca;Remocao;2;500;44700
+5000;aleatoria;Arvore Binária de Busca;Remocao;3;500;41600
+5000;aleatoria;Arvore Binária de Busca;Remocao;4;500;38800
+5000;aleatoria;Arvore Binária de Busca;Remocao;5;500;37400
+5000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;1;200;91600
+5000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;2;200;88900
+5000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;3;200;88300
+5000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;4;200;88400
+5000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;5;200;89000
+5000;aleatoria;Arvore AVL;Construcao;1;5000;426200
+5000;aleatoria;Arvore AVL;Construcao;2;5000;444200
+5000;aleatoria;Arvore AVL;Construcao;3;5000;421500
+5000;aleatoria;Arvore AVL;Construcao;4;5000;417800
+5000;aleatoria;Arvore AVL;Construcao;5;5000;414900
+5000;aleatoria;Arvore AVL;BuscaPresente;1;2000;98400
+5000;aleatoria;Arvore AVL;BuscaPresente;2;2000;94100
+5000;aleatoria;Arvore AVL;BuscaPresente;3;2000;92000
+5000;aleatoria;Arvore AVL;BuscaPresente;4;2000;90300
+5000;aleatoria;Arvore AVL;BuscaPresente;5;2000;92500
+5000;aleatoria;Arvore AVL;BuscaAusente;1;2000;119200
+5000;aleatoria;Arvore AVL;BuscaAusente;2;2000;113300
+5000;aleatoria;Arvore AVL;BuscaAusente;3;2000;114900
+5000;aleatoria;Arvore AVL;BuscaAusente;4;2000;114700
+5000;aleatoria;Arvore AVL;BuscaAusente;5;2000;113600
+5000;aleatoria;Arvore AVL;Insercao;1;500;56900
+5000;aleatoria;Arvore AVL;Insercao;2;500;49900
+5000;aleatoria;Arvore AVL;Insercao;3;500;50100
+5000;aleatoria;Arvore AVL;Insercao;4;500;49200
+5000;aleatoria;Arvore AVL;Insercao;5;500;48300
+5000;aleatoria;Arvore AVL;Remocao;1;500;68600
+5000;aleatoria;Arvore AVL;Remocao;2;500;22349100
+5000;aleatoria;Arvore AVL;Remocao;3;500;98900
+5000;aleatoria;Arvore AVL;Remocao;4;500;78900
+5000;aleatoria;Arvore AVL;Remocao;5;500;66900
+5000;aleatoria;Arvore AVL;ConsultaIntervalo;1;200;82200
+5000;aleatoria;Arvore AVL;ConsultaIntervalo;2;200;62400
+5000;aleatoria;Arvore AVL;ConsultaIntervalo;3;200;62600
+5000;aleatoria;Arvore AVL;ConsultaIntervalo;4;200;64900
+5000;aleatoria;Arvore AVL;ConsultaIntervalo;5;200;61300
+5000;aleatoria;Arvore Rubro-Negra;Construcao;1;5000;730200
+5000;aleatoria;Arvore Rubro-Negra;Construcao;2;5000;677000
+5000;aleatoria;Arvore Rubro-Negra;Construcao;3;5000;693100
+5000;aleatoria;Arvore Rubro-Negra;Construcao;4;5000;673400
+5000;aleatoria;Arvore Rubro-Negra;Construcao;5;5000;664100
+5000;aleatoria;Arvore Rubro-Negra;BuscaPresente;1;2000;111200
+5000;aleatoria;Arvore Rubro-Negra;BuscaPresente;2;2000;111100
+5000;aleatoria;Arvore Rubro-Negra;BuscaPresente;3;2000;108000
+5000;aleatoria;Arvore Rubro-Negra;BuscaPresente;4;2000;109000
+5000;aleatoria;Arvore Rubro-Negra;BuscaPresente;5;2000;108100
+5000;aleatoria;Arvore Rubro-Negra;BuscaAusente;1;2000;125400
+5000;aleatoria;Arvore Rubro-Negra;BuscaAusente;2;2000;123300
+5000;aleatoria;Arvore Rubro-Negra;BuscaAusente;3;2000;127500
+5000;aleatoria;Arvore Rubro-Negra;BuscaAusente;4;2000;125700
+5000;aleatoria;Arvore Rubro-Negra;BuscaAusente;5;2000;122800
+5000;aleatoria;Arvore Rubro-Negra;Insercao;1;500;73100
+5000;aleatoria;Arvore Rubro-Negra;Insercao;2;500;71300
+5000;aleatoria;Arvore Rubro-Negra;Insercao;3;500;83300
+5000;aleatoria;Arvore Rubro-Negra;Insercao;4;500;73500
+5000;aleatoria;Arvore Rubro-Negra;Insercao;5;500;71100
+5000;aleatoria;Arvore Rubro-Negra;Remocao;1;500;40100
+5000;aleatoria;Arvore Rubro-Negra;Remocao;2;500;44400
+5000;aleatoria;Arvore Rubro-Negra;Remocao;3;500;38000
+5000;aleatoria;Arvore Rubro-Negra;Remocao;4;500;36800
+5000;aleatoria;Arvore Rubro-Negra;Remocao;5;500;36800
+5000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;1;200;71200
+5000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;2;200;66400
+5000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;3;200;67200
+5000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;4;200;67800
+5000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;5;200;65400
+10000;crescente;Array Normal;Construcao;1;10000;6272900
+10000;crescente;Array Normal;Construcao;2;10000;6122400
+10000;crescente;Array Normal;Construcao;3;10000;6125800
+10000;crescente;Array Normal;Construcao;4;10000;6271000
+10000;crescente;Array Normal;Construcao;5;10000;6125500
+10000;crescente;Array Normal;BuscaPresente;1;2000;1393000
+10000;crescente;Array Normal;BuscaPresente;2;2000;1359900
+10000;crescente;Array Normal;BuscaPresente;3;2000;1363400
+10000;crescente;Array Normal;BuscaPresente;4;2000;1356300
+10000;crescente;Array Normal;BuscaPresente;5;2000;1362700
+10000;crescente;Array Normal;BuscaAusente;1;2000;2478400
+10000;crescente;Array Normal;BuscaAusente;2;2000;2465000
+10000;crescente;Array Normal;BuscaAusente;3;2000;2479300
+10000;crescente;Array Normal;BuscaAusente;4;2000;2465900
+10000;crescente;Array Normal;BuscaAusente;5;2000;2453000
+10000;crescente;Array Normal;Insercao;1;1000;1415800
+10000;crescente;Array Normal;Insercao;2;1000;1410300
+10000;crescente;Array Normal;Insercao;3;1000;1297900
+10000;crescente;Array Normal;Insercao;4;1000;1302500
+10000;crescente;Array Normal;Insercao;5;1000;1412200
+10000;crescente;Array Normal;Remocao;1;1000;798900
+10000;crescente;Array Normal;Remocao;2;1000;800100
+10000;crescente;Array Normal;Remocao;3;1000;804400
+10000;crescente;Array Normal;Remocao;4;1000;793700
+10000;crescente;Array Normal;Remocao;5;1000;797000
+10000;crescente;Array Normal;ConsultaIntervalo;1;200;540900
+10000;crescente;Array Normal;ConsultaIntervalo;2;200;537900
+10000;crescente;Array Normal;ConsultaIntervalo;3;200;538100
+10000;crescente;Array Normal;ConsultaIntervalo;4;200;539400
+10000;crescente;Array Normal;ConsultaIntervalo;5;200;552700
+10000;crescente;Array Ordenado;Construcao;1;10000;151700
+10000;crescente;Array Ordenado;Construcao;2;10000;150200
+10000;crescente;Array Ordenado;Construcao;3;10000;149500
+10000;crescente;Array Ordenado;Construcao;4;10000;152400
+10000;crescente;Array Ordenado;Construcao;5;10000;149300
+10000;crescente;Array Ordenado;BuscaPresente;1;2000;121000
+10000;crescente;Array Ordenado;BuscaPresente;2;2000;108500
+10000;crescente;Array Ordenado;BuscaPresente;3;2000;102500
+10000;crescente;Array Ordenado;BuscaPresente;4;2000;96800
+10000;crescente;Array Ordenado;BuscaPresente;5;2000;94600
+10000;crescente;Array Ordenado;BuscaAusente;1;2000;112900
+10000;crescente;Array Ordenado;BuscaAusente;2;2000;107300
+10000;crescente;Array Ordenado;BuscaAusente;3;2000;105800
+10000;crescente;Array Ordenado;BuscaAusente;4;2000;105800
+10000;crescente;Array Ordenado;BuscaAusente;5;2000;106700
+10000;crescente;Array Ordenado;Insercao;1;1000;229700
+10000;crescente;Array Ordenado;Insercao;2;1000;225000
+10000;crescente;Array Ordenado;Insercao;3;1000;222700
+10000;crescente;Array Ordenado;Insercao;4;1000;221500
+10000;crescente;Array Ordenado;Insercao;5;1000;220500
+10000;crescente;Array Ordenado;Remocao;1;1000;194100
+10000;crescente;Array Ordenado;Remocao;2;1000;186600
+10000;crescente;Array Ordenado;Remocao;3;1000;183500
+10000;crescente;Array Ordenado;Remocao;4;1000;181900
+10000;crescente;Array Ordenado;Remocao;5;1000;180300
+10000;crescente;Array Ordenado;ConsultaIntervalo;1;200;251300
+10000;crescente;Array Ordenado;ConsultaIntervalo;2;200;249900
+10000;crescente;Array Ordenado;ConsultaIntervalo;3;200;251600
+10000;crescente;Array Ordenado;ConsultaIntervalo;4;200;249800
+10000;crescente;Array Ordenado;ConsultaIntervalo;5;200;250200
+10000;crescente;Lista Encadeada Dupla;Construcao;1;10000;59272800
+10000;crescente;Lista Encadeada Dupla;Construcao;2;10000;59287700
+10000;crescente;Lista Encadeada Dupla;Construcao;3;10000;59410000
+10000;crescente;Lista Encadeada Dupla;Construcao;4;10000;59239600
+10000;crescente;Lista Encadeada Dupla;Construcao;5;10000;59241700
+10000;crescente;Lista Encadeada Dupla;BuscaPresente;1;2000;11431000
+10000;crescente;Lista Encadeada Dupla;BuscaPresente;2;2000;11401800
+10000;crescente;Lista Encadeada Dupla;BuscaPresente;3;2000;11397100
+10000;crescente;Lista Encadeada Dupla;BuscaPresente;4;2000;11464700
+10000;crescente;Lista Encadeada Dupla;BuscaPresente;5;2000;11397800
+10000;crescente;Lista Encadeada Dupla;BuscaAusente;1;2000;22966600
+10000;crescente;Lista Encadeada Dupla;BuscaAusente;2;2000;22887300
+10000;crescente;Lista Encadeada Dupla;BuscaAusente;3;2000;22970300
+10000;crescente;Lista Encadeada Dupla;BuscaAusente;4;2000;22728200
+10000;crescente;Lista Encadeada Dupla;BuscaAusente;5;2000;22909400
+10000;crescente;Lista Encadeada Dupla;Insercao;1;1000;11882000
+10000;crescente;Lista Encadeada Dupla;Insercao;2;1000;11862300
+10000;crescente;Lista Encadeada Dupla;Insercao;3;1000;11869000
+10000;crescente;Lista Encadeada Dupla;Insercao;4;1000;11858100
+10000;crescente;Lista Encadeada Dupla;Insercao;5;1000;11865100
+10000;crescente;Lista Encadeada Dupla;Remocao;1;1000;5268500
+10000;crescente;Lista Encadeada Dupla;Remocao;2;1000;5259600
+10000;crescente;Lista Encadeada Dupla;Remocao;3;1000;5263400
+10000;crescente;Lista Encadeada Dupla;Remocao;4;1000;5293000
+10000;crescente;Lista Encadeada Dupla;Remocao;5;1000;5266600
+10000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;1;200;2191100
+10000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;2;200;2176500
+10000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;3;200;2174000
+10000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;4;200;2188500
+10000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;5;200;2189200
+10000;crescente;Tabela Hash;Construcao;1;10000;53900
+10000;crescente;Tabela Hash;Construcao;2;10000;50700
+10000;crescente;Tabela Hash;Construcao;3;10000;50900
+10000;crescente;Tabela Hash;Construcao;4;10000;50100
+10000;crescente;Tabela Hash;Construcao;5;10000;49900
+10000;crescente;Tabela Hash;BuscaPresente;1;2000;11700
+10000;crescente;Tabela Hash;BuscaPresente;2;2000;11900
+10000;crescente;Tabela Hash;BuscaPresente;3;2000;11000
+10000;crescente;Tabela Hash;BuscaPresente;4;2000;10000
+10000;crescente;Tabela Hash;BuscaPresente;5;2000;10500
+10000;crescente;Tabela Hash;BuscaAusente;1;2000;9700
+10000;crescente;Tabela Hash;BuscaAusente;2;2000;9200
+10000;crescente;Tabela Hash;BuscaAusente;3;2000;8800
+10000;crescente;Tabela Hash;BuscaAusente;4;2000;9100
+10000;crescente;Tabela Hash;BuscaAusente;5;2000;8800
+10000;crescente;Tabela Hash;Insercao;1;1000;10100
+10000;crescente;Tabela Hash;Insercao;2;1000;7600
+10000;crescente;Tabela Hash;Insercao;3;1000;7400
+10000;crescente;Tabela Hash;Insercao;4;1000;7400
+10000;crescente;Tabela Hash;Insercao;5;1000;7600
+10000;crescente;Tabela Hash;Remocao;1;1000;7600
+10000;crescente;Tabela Hash;Remocao;2;1000;7200
+10000;crescente;Tabela Hash;Remocao;3;1000;6900
+10000;crescente;Tabela Hash;Remocao;4;1000;6900
+10000;crescente;Tabela Hash;Remocao;5;1000;6700
+10000;crescente;Tabela Hash;ConsultaIntervalo;1;200;2330100
+10000;crescente;Tabela Hash;ConsultaIntervalo;2;200;2341100
+10000;crescente;Tabela Hash;ConsultaIntervalo;3;200;2354900
+10000;crescente;Tabela Hash;ConsultaIntervalo;4;200;2531400
+10000;crescente;Tabela Hash;ConsultaIntervalo;5;200;2336700
+10000;crescente;Arvore Binária de Busca;Construcao;1;10000;57979600
+10000;crescente;Arvore Binária de Busca;Construcao;2;10000;57793000
+10000;crescente;Arvore Binária de Busca;Construcao;3;10000;57845400
+10000;crescente;Arvore Binária de Busca;Construcao;4;10000;57980800
+10000;crescente;Arvore Binária de Busca;Construcao;5;10000;57883700
+10000;crescente;Arvore Binária de Busca;BuscaPresente;1;2000;11052800
+10000;crescente;Arvore Binária de Busca;BuscaPresente;2;2000;11141500
+10000;crescente;Arvore Binária de Busca;BuscaPresente;3;2000;11129100
+10000;crescente;Arvore Binária de Busca;BuscaPresente;4;2000;11035700
+10000;crescente;Arvore Binária de Busca;BuscaPresente;5;2000;11217600
+10000;crescente;Arvore Binária de Busca;BuscaAusente;1;2000;11092400
+10000;crescente;Arvore Binária de Busca;BuscaAusente;2;2000;11236700
+10000;crescente;Arvore Binária de Busca;BuscaAusente;3;2000;11121700
+10000;crescente;Arvore Binária de Busca;BuscaAusente;4;2000;11266800
+10000;crescente;Arvore Binária de Busca;BuscaAusente;5;2000;11275500
+10000;crescente;Arvore Binária de Busca;Insercao;1;1000;5636700
+10000;crescente;Arvore Binária de Busca;Insercao;2;1000;5618900
+10000;crescente;Arvore Binária de Busca;Insercao;3;1000;5651500
+10000;crescente;Arvore Binária de Busca;Insercao;4;1000;5639100
+10000;crescente;Arvore Binária de Busca;Insercao;5;1000;5619100
+10000;crescente;Arvore Binária de Busca;Remocao;1;1000;4952700
+10000;crescente;Arvore Binária de Busca;Remocao;2;1000;4946500
+10000;crescente;Arvore Binária de Busca;Remocao;3;1000;4953700
+10000;crescente;Arvore Binária de Busca;Remocao;4;1000;4955300
+10000;crescente;Arvore Binária de Busca;Remocao;5;1000;4962800
+10000;crescente;Arvore Binária de Busca;ConsultaIntervalo;1;200;1962800
+10000;crescente;Arvore Binária de Busca;ConsultaIntervalo;2;200;1952600
+10000;crescente;Arvore Binária de Busca;ConsultaIntervalo;3;200;3800600
+10000;crescente;Arvore Binária de Busca;ConsultaIntervalo;4;200;1980800
+10000;crescente;Arvore Binária de Busca;ConsultaIntervalo;5;200;1973400
+10000;crescente;Arvore AVL;Construcao;1;10000;505000
+10000;crescente;Arvore AVL;Construcao;2;10000;490300
+10000;crescente;Arvore AVL;Construcao;3;10000;493400
+10000;crescente;Arvore AVL;Construcao;4;10000;501800
+10000;crescente;Arvore AVL;Construcao;5;10000;484800
+10000;crescente;Arvore AVL;BuscaPresente;1;2000;119000
+10000;crescente;Arvore AVL;BuscaPresente;2;2000;127400
+10000;crescente;Arvore AVL;BuscaPresente;3;2000;118800
+10000;crescente;Arvore AVL;BuscaPresente;4;2000;122200
+10000;crescente;Arvore AVL;BuscaPresente;5;2000;121800
+10000;crescente;Arvore AVL;BuscaAusente;1;2000;216800
+10000;crescente;Arvore AVL;BuscaAusente;2;2000;145100
+10000;crescente;Arvore AVL;BuscaAusente;3;2000;134700
+10000;crescente;Arvore AVL;BuscaAusente;4;2000;121700
+10000;crescente;Arvore AVL;BuscaAusente;5;2000;130700
+10000;crescente;Arvore AVL;Insercao;1;1000;115300
+10000;crescente;Arvore AVL;Insercao;2;1000;111400
+10000;crescente;Arvore AVL;Insercao;3;1000;102700
+10000;crescente;Arvore AVL;Insercao;4;1000;106200
+10000;crescente;Arvore AVL;Insercao;5;1000;95700
+10000;crescente;Arvore AVL;Remocao;1;1000;135200
+10000;crescente;Arvore AVL;Remocao;2;1000;128000
+10000;crescente;Arvore AVL;Remocao;3;1000;133800
+10000;crescente;Arvore AVL;Remocao;4;1000;135000
+10000;crescente;Arvore AVL;Remocao;5;1000;170600
+10000;crescente;Arvore AVL;ConsultaIntervalo;1;200;49200
+10000;crescente;Arvore AVL;ConsultaIntervalo;2;200;43100
+10000;crescente;Arvore AVL;ConsultaIntervalo;3;200;47900
+10000;crescente;Arvore AVL;ConsultaIntervalo;4;200;46000
+10000;crescente;Arvore AVL;ConsultaIntervalo;5;200;70400
+10000;crescente;Arvore Rubro-Negra;Construcao;1;10000;1316700
+10000;crescente;Arvore Rubro-Negra;Construcao;2;10000;1111900
+10000;crescente;Arvore Rubro-Negra;Construcao;3;10000;1043500
+10000;crescente;Arvore Rubro-Negra;Construcao;4;10000;1129900
+10000;crescente;Arvore Rubro-Negra;Construcao;5;10000;1131800
+10000;crescente;Arvore Rubro-Negra;BuscaPresente;1;2000;155600
+10000;crescente;Arvore Rubro-Negra;BuscaPresente;2;2000;146500
+10000;crescente;Arvore Rubro-Negra;BuscaPresente;3;2000;149800
+10000;crescente;Arvore Rubro-Negra;BuscaPresente;4;2000;137600
+10000;crescente;Arvore Rubro-Negra;BuscaPresente;5;2000;140500
+10000;crescente;Arvore Rubro-Negra;BuscaAusente;1;2000;286700
+10000;crescente;Arvore Rubro-Negra;BuscaAusente;2;2000;185200
+10000;crescente;Arvore Rubro-Negra;BuscaAusente;3;2000;160700
+10000;crescente;Arvore Rubro-Negra;BuscaAusente;4;2000;156000
+10000;crescente;Arvore Rubro-Negra;BuscaAusente;5;2000;165200
+10000;crescente;Arvore Rubro-Negra;Insercao;1;1000;272300
+10000;crescente;Arvore Rubro-Negra;Insercao;2;1000;257100
+10000;crescente;Arvore Rubro-Negra;Insercao;3;1000;153300
+10000;crescente;Arvore Rubro-Negra;Insercao;4;1000;146900
+10000;crescente;Arvore Rubro-Negra;Insercao;5;1000;136700
+10000;crescente;Arvore Rubro-Negra;Remocao;1;1000;98400
+10000;crescente;Arvore Rubro-Negra;Remocao;2;1000;95700
+10000;crescente;Arvore Rubro-Negra;Remocao;3;1000;99700
+10000;crescente;Arvore Rubro-Negra;Remocao;4;1000;87500
+10000;crescente;Arvore Rubro-Negra;Remocao;5;1000;76600
+10000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;1;200;56000
+10000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;2;200;45100
+10000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;3;200;49600
+10000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;4;200;52400
+10000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;5;200;42900
+10000;decrescente;Array Normal;Construcao;1;10000;6247000
+10000;decrescente;Array Normal;Construcao;2;10000;6203000
+10000;decrescente;Array Normal;Construcao;3;10000;6144700
+10000;decrescente;Array Normal;Construcao;4;10000;6125300
+10000;decrescente;Array Normal;Construcao;5;10000;6119600
+10000;decrescente;Array Normal;BuscaPresente;1;2000;1358200
+10000;decrescente;Array Normal;BuscaPresente;2;2000;1352000
+10000;decrescente;Array Normal;BuscaPresente;3;2000;1360000
+10000;decrescente;Array Normal;BuscaPresente;4;2000;1350800
+10000;decrescente;Array Normal;BuscaPresente;5;2000;1357400
+10000;decrescente;Array Normal;BuscaAusente;1;2000;2455100
+10000;decrescente;Array Normal;BuscaAusente;2;2000;2457600
+10000;decrescente;Array Normal;BuscaAusente;3;2000;2454600
+10000;decrescente;Array Normal;BuscaAusente;4;2000;2451900
+10000;decrescente;Array Normal;BuscaAusente;5;2000;2454900
+10000;decrescente;Array Normal;Insercao;1;1000;1413500
+10000;decrescente;Array Normal;Insercao;2;1000;1419100
+10000;decrescente;Array Normal;Insercao;3;1000;1410800
+10000;decrescente;Array Normal;Insercao;4;1000;1411400
+10000;decrescente;Array Normal;Insercao;5;1000;1409600
+10000;decrescente;Array Normal;Remocao;1;1000;798000
+10000;decrescente;Array Normal;Remocao;2;1000;796600
+10000;decrescente;Array Normal;Remocao;3;1000;794900
+10000;decrescente;Array Normal;Remocao;4;1000;793900
+10000;decrescente;Array Normal;Remocao;5;1000;794600
+10000;decrescente;Array Normal;ConsultaIntervalo;1;200;570600
+10000;decrescente;Array Normal;ConsultaIntervalo;2;200;587200
+10000;decrescente;Array Normal;ConsultaIntervalo;3;200;557000
+10000;decrescente;Array Normal;ConsultaIntervalo;4;200;544400
+10000;decrescente;Array Normal;ConsultaIntervalo;5;200;567100
+10000;decrescente;Array Ordenado;Construcao;1;10000;1703800
+10000;decrescente;Array Ordenado;Construcao;2;10000;1699400
+10000;decrescente;Array Ordenado;Construcao;3;10000;1700100
+10000;decrescente;Array Ordenado;Construcao;4;10000;1696300
+10000;decrescente;Array Ordenado;Construcao;5;10000;1698800
+10000;decrescente;Array Ordenado;BuscaPresente;1;2000;106900
+10000;decrescente;Array Ordenado;BuscaPresente;2;2000;105100
+10000;decrescente;Array Ordenado;BuscaPresente;3;2000;103500
+10000;decrescente;Array Ordenado;BuscaPresente;4;2000;103000
+10000;decrescente;Array Ordenado;BuscaPresente;5;2000;100300
+10000;decrescente;Array Ordenado;BuscaAusente;1;2000;110400
+10000;decrescente;Array Ordenado;BuscaAusente;2;2000;106400
+10000;decrescente;Array Ordenado;BuscaAusente;3;2000;104600
+10000;decrescente;Array Ordenado;BuscaAusente;4;2000;103900
+10000;decrescente;Array Ordenado;BuscaAusente;5;2000;103400
+10000;decrescente;Array Ordenado;Insercao;1;1000;238100
+10000;decrescente;Array Ordenado;Insercao;2;1000;227500
+10000;decrescente;Array Ordenado;Insercao;3;1000;225500
+10000;decrescente;Array Ordenado;Insercao;4;1000;226500
+10000;decrescente;Array Ordenado;Insercao;5;1000;224500
+10000;decrescente;Array Ordenado;Remocao;1;1000;191700
+10000;decrescente;Array Ordenado;Remocao;2;1000;188500
+10000;decrescente;Array Ordenado;Remocao;3;1000;199700
+10000;decrescente;Array Ordenado;Remocao;4;1000;189500
+10000;decrescente;Array Ordenado;Remocao;5;1000;190300
+10000;decrescente;Array Ordenado;ConsultaIntervalo;1;200;251000
+10000;decrescente;Array Ordenado;ConsultaIntervalo;2;200;250100
+10000;decrescente;Array Ordenado;ConsultaIntervalo;3;200;251200
+10000;decrescente;Array Ordenado;ConsultaIntervalo;4;200;251100
+10000;decrescente;Array Ordenado;ConsultaIntervalo;5;200;249900
+10000;decrescente;Lista Encadeada Dupla;Construcao;1;10000;59224600
+10000;decrescente;Lista Encadeada Dupla;Construcao;2;10000;59112300
+10000;decrescente;Lista Encadeada Dupla;Construcao;3;10000;59312400
+10000;decrescente;Lista Encadeada Dupla;Construcao;4;10000;59197200
+10000;decrescente;Lista Encadeada Dupla;Construcao;5;10000;59193300
+10000;decrescente;Lista Encadeada Dupla;BuscaPresente;1;2000;11336000
+10000;decrescente;Lista Encadeada Dupla;BuscaPresente;2;2000;11328000
+10000;decrescente;Lista Encadeada Dupla;BuscaPresente;3;2000;11355500
+10000;decrescente;Lista Encadeada Dupla;BuscaPresente;4;2000;11317200
+10000;decrescente;Lista Encadeada Dupla;BuscaPresente;5;2000;11329700
+10000;decrescente;Lista Encadeada Dupla;BuscaAusente;1;2000;22713400
+10000;decrescente;Lista Encadeada Dupla;BuscaAusente;2;2000;22724600
+10000;decrescente;Lista Encadeada Dupla;BuscaAusente;3;2000;22723800
+10000;decrescente;Lista Encadeada Dupla;BuscaAusente;4;2000;22736300
+10000;decrescente;Lista Encadeada Dupla;BuscaAusente;5;2000;22702100
+10000;decrescente;Lista Encadeada Dupla;Insercao;1;1000;11873200
+10000;decrescente;Lista Encadeada Dupla;Insercao;2;1000;11868000
+10000;decrescente;Lista Encadeada Dupla;Insercao;3;1000;11859200
+10000;decrescente;Lista Encadeada Dupla;Insercao;4;1000;11788900
+10000;decrescente;Lista Encadeada Dupla;Insercao;5;1000;11850000
+10000;decrescente;Lista Encadeada Dupla;Remocao;1;1000;5257700
+10000;decrescente;Lista Encadeada Dupla;Remocao;2;1000;5263300
+10000;decrescente;Lista Encadeada Dupla;Remocao;3;1000;5254000
+10000;decrescente;Lista Encadeada Dupla;Remocao;4;1000;5259600
+10000;decrescente;Lista Encadeada Dupla;Remocao;5;1000;5261200
+10000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;1;200;2185000
+10000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;2;200;2176700
+10000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;3;200;2184700
+10000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;4;200;2170300
+10000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;5;200;2191000
+10000;decrescente;Tabela Hash;Construcao;1;10000;55100
+10000;decrescente;Tabela Hash;Construcao;2;10000;49000
+10000;decrescente;Tabela Hash;Construcao;3;10000;48200
+10000;decrescente;Tabela Hash;Construcao;4;10000;48600
+10000;decrescente;Tabela Hash;Construcao;5;10000;47900
+10000;decrescente;Tabela Hash;BuscaPresente;1;2000;12000
+10000;decrescente;Tabela Hash;BuscaPresente;2;2000;10300
+10000;decrescente;Tabela Hash;BuscaPresente;3;2000;9700
+10000;decrescente;Tabela Hash;BuscaPresente;4;2000;10000
+10000;decrescente;Tabela Hash;BuscaPresente;5;2000;9700
+10000;decrescente;Tabela Hash;BuscaAusente;1;2000;9500
+10000;decrescente;Tabela Hash;BuscaAusente;2;2000;8700
+10000;decrescente;Tabela Hash;BuscaAusente;3;2000;8700
+10000;decrescente;Tabela Hash;BuscaAusente;4;2000;8500
+10000;decrescente;Tabela Hash;BuscaAusente;5;2000;8500
+10000;decrescente;Tabela Hash;Insercao;1;1000;8500
+10000;decrescente;Tabela Hash;Insercao;2;1000;7100
+10000;decrescente;Tabela Hash;Insercao;3;1000;7400
+10000;decrescente;Tabela Hash;Insercao;4;1000;7100
+10000;decrescente;Tabela Hash;Insercao;5;1000;9200
+10000;decrescente;Tabela Hash;Remocao;1;1000;7900
+10000;decrescente;Tabela Hash;Remocao;2;1000;6600
+10000;decrescente;Tabela Hash;Remocao;3;1000;6800
+10000;decrescente;Tabela Hash;Remocao;4;1000;6600
+10000;decrescente;Tabela Hash;Remocao;5;1000;6400
+10000;decrescente;Tabela Hash;ConsultaIntervalo;1;200;2332600
+10000;decrescente;Tabela Hash;ConsultaIntervalo;2;200;2332300
+10000;decrescente;Tabela Hash;ConsultaIntervalo;3;200;2330500
+10000;decrescente;Tabela Hash;ConsultaIntervalo;4;200;2330400
+10000;decrescente;Tabela Hash;ConsultaIntervalo;5;200;2359800
+10000;decrescente;Arvore Binária de Busca;Construcao;1;10000;56933600
+10000;decrescente;Arvore Binária de Busca;Construcao;2;10000;56964200
+10000;decrescente;Arvore Binária de Busca;Construcao;3;10000;56776600
+10000;decrescente;Arvore Binária de Busca;Construcao;4;10000;56729400
+10000;decrescente;Arvore Binária de Busca;Construcao;5;10000;56904100
+10000;decrescente;Arvore Binária de Busca;BuscaPresente;1;2000;11177200
+10000;decrescente;Arvore Binária de Busca;BuscaPresente;2;2000;11700800
+10000;decrescente;Arvore Binária de Busca;BuscaPresente;3;2000;11181200
+10000;decrescente;Arvore Binária de Busca;BuscaPresente;4;2000;11374100
+10000;decrescente;Arvore Binária de Busca;BuscaPresente;5;2000;11914300
+10000;decrescente;Arvore Binária de Busca;BuscaAusente;1;2000;11299300
+10000;decrescente;Arvore Binária de Busca;BuscaAusente;2;2000;11079200
+10000;decrescente;Arvore Binária de Busca;BuscaAusente;3;2000;11172800
+10000;decrescente;Arvore Binária de Busca;BuscaAusente;4;2000;11295700
+10000;decrescente;Arvore Binária de Busca;BuscaAusente;5;2000;11505100
+10000;decrescente;Arvore Binária de Busca;Insercao;1;1000;5852900
+10000;decrescente;Arvore Binária de Busca;Insercao;2;1000;5837700
+10000;decrescente;Arvore Binária de Busca;Insercao;3;1000;5840000
+10000;decrescente;Arvore Binária de Busca;Insercao;4;1000;5876700
+10000;decrescente;Arvore Binária de Busca;Insercao;5;1000;5834800
+10000;decrescente;Arvore Binária de Busca;Remocao;1;1000;5275400
+10000;decrescente;Arvore Binária de Busca;Remocao;2;1000;4952900
+10000;decrescente;Arvore Binária de Busca;Remocao;3;1000;4956400
+10000;decrescente;Arvore Binária de Busca;Remocao;4;1000;4950800
+10000;decrescente;Arvore Binária de Busca;Remocao;5;1000;4946000
+10000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;1;200;2131700
+10000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;2;200;2116800
+10000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;3;200;2106000
+10000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;4;200;2114300
+10000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;5;200;2235100
+10000;decrescente;Arvore AVL;Construcao;1;10000;557100
+10000;decrescente;Arvore AVL;Construcao;2;10000;566700
+10000;decrescente;Arvore AVL;Construcao;3;10000;550200
+10000;decrescente;Arvore AVL;Construcao;4;10000;555200
+10000;decrescente;Arvore AVL;Construcao;5;10000;557800
+10000;decrescente;Arvore AVL;BuscaPresente;1;2000;115300
+10000;decrescente;Arvore AVL;BuscaPresente;2;2000;119200
+10000;decrescente;Arvore AVL;BuscaPresente;3;2000;132500
+10000;decrescente;Arvore AVL;BuscaPresente;4;2000;124200
+10000;decrescente;Arvore AVL;BuscaPresente;5;2000;126700
+10000;decrescente;Arvore AVL;BuscaAusente;1;2000;147500
+10000;decrescente;Arvore AVL;BuscaAusente;2;2000;144000
+10000;decrescente;Arvore AVL;BuscaAusente;3;2000;151300
+10000;decrescente;Arvore AVL;BuscaAusente;4;2000;142800
+10000;decrescente;Arvore AVL;BuscaAusente;5;2000;142000
+10000;decrescente;Arvore AVL;Insercao;1;1000;109800
+10000;decrescente;Arvore AVL;Insercao;2;1000;107500
+10000;decrescente;Arvore AVL;Insercao;3;1000;101100
+10000;decrescente;Arvore AVL;Insercao;4;1000;98300
+10000;decrescente;Arvore AVL;Insercao;5;1000;87900
+10000;decrescente;Arvore AVL;Remocao;1;1000;127500
+10000;decrescente;Arvore AVL;Remocao;2;1000;125400
+10000;decrescente;Arvore AVL;Remocao;3;1000;116800
+10000;decrescente;Arvore AVL;Remocao;4;1000;121900
+10000;decrescente;Arvore AVL;Remocao;5;1000;122800
+10000;decrescente;Arvore AVL;ConsultaIntervalo;1;200;46500
+10000;decrescente;Arvore AVL;ConsultaIntervalo;2;200;47400
+10000;decrescente;Arvore AVL;ConsultaIntervalo;3;200;46400
+10000;decrescente;Arvore AVL;ConsultaIntervalo;4;200;41800
+10000;decrescente;Arvore AVL;ConsultaIntervalo;5;200;58700
+10000;decrescente;Arvore Rubro-Negra;Construcao;1;10000;1214600
+10000;decrescente;Arvore Rubro-Negra;Construcao;2;10000;1175200
+10000;decrescente;Arvore Rubro-Negra;Construcao;3;10000;1175500
+10000;decrescente;Arvore Rubro-Negra;Construcao;4;10000;1171400
+10000;decrescente;Arvore Rubro-Negra;Construcao;5;10000;1197100
+10000;decrescente;Arvore Rubro-Negra;BuscaPresente;1;2000;141300
+10000;decrescente;Arvore Rubro-Negra;BuscaPresente;2;2000;137200
+10000;decrescente;Arvore Rubro-Negra;BuscaPresente;3;2000;140000
+10000;decrescente;Arvore Rubro-Negra;BuscaPresente;4;2000;130400
+10000;decrescente;Arvore Rubro-Negra;BuscaPresente;5;2000;132100
+10000;decrescente;Arvore Rubro-Negra;BuscaAusente;1;2000;156200
+10000;decrescente;Arvore Rubro-Negra;BuscaAusente;2;2000;152400
+10000;decrescente;Arvore Rubro-Negra;BuscaAusente;3;2000;147900
+10000;decrescente;Arvore Rubro-Negra;BuscaAusente;4;2000;152000
+10000;decrescente;Arvore Rubro-Negra;BuscaAusente;5;2000;143700
+10000;decrescente;Arvore Rubro-Negra;Insercao;1;1000;150600
+10000;decrescente;Arvore Rubro-Negra;Insercao;2;1000;145700
+10000;decrescente;Arvore Rubro-Negra;Insercao;3;1000;130300
+10000;decrescente;Arvore Rubro-Negra;Insercao;4;1000;137500
+10000;decrescente;Arvore Rubro-Negra;Insercao;5;1000;142600
+10000;decrescente;Arvore Rubro-Negra;Remocao;1;1000;75600
+10000;decrescente;Arvore Rubro-Negra;Remocao;2;1000;77600
+10000;decrescente;Arvore Rubro-Negra;Remocao;3;1000;66400
+10000;decrescente;Arvore Rubro-Negra;Remocao;4;1000;69100
+10000;decrescente;Arvore Rubro-Negra;Remocao;5;1000;63600
+10000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;1;200;47100
+10000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;2;200;41700
+10000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;3;200;63000
+10000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;4;200;45300
+10000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;5;200;84200
+10000;aleatoria;Array Normal;Construcao;1;10000;6121400
+10000;aleatoria;Array Normal;Construcao;2;10000;6119100
+10000;aleatoria;Array Normal;Construcao;3;10000;6123000
+10000;aleatoria;Array Normal;Construcao;4;10000;6120700
+10000;aleatoria;Array Normal;Construcao;5;10000;6127900
+10000;aleatoria;Array Normal;BuscaPresente;1;2000;1356800
+10000;aleatoria;Array Normal;BuscaPresente;2;2000;1366500
+10000;aleatoria;Array Normal;BuscaPresente;3;2000;1355400
+10000;aleatoria;Array Normal;BuscaPresente;4;2000;1350100
+10000;aleatoria;Array Normal;BuscaPresente;5;2000;1353100
+10000;aleatoria;Array Normal;BuscaAusente;1;2000;2457600
+10000;aleatoria;Array Normal;BuscaAusente;2;2000;2473800
+10000;aleatoria;Array Normal;BuscaAusente;3;2000;2457400
+10000;aleatoria;Array Normal;BuscaAusente;4;2000;2459400
+10000;aleatoria;Array Normal;BuscaAusente;5;2000;2459600
+10000;aleatoria;Array Normal;Insercao;1;1000;1301100
+10000;aleatoria;Array Normal;Insercao;2;1000;1409700
+10000;aleatoria;Array Normal;Insercao;3;1000;1409300
+10000;aleatoria;Array Normal;Insercao;4;1000;1409700
+10000;aleatoria;Array Normal;Insercao;5;1000;1300000
+10000;aleatoria;Array Normal;Remocao;1;1000;816300
+10000;aleatoria;Array Normal;Remocao;2;1000;796100
+10000;aleatoria;Array Normal;Remocao;3;1000;794800
+10000;aleatoria;Array Normal;Remocao;4;1000;794900
+10000;aleatoria;Array Normal;Remocao;5;1000;795100
+10000;aleatoria;Array Normal;ConsultaIntervalo;1;200;2788300
+10000;aleatoria;Array Normal;ConsultaIntervalo;2;200;2771800
+10000;aleatoria;Array Normal;ConsultaIntervalo;3;200;2813700
+10000;aleatoria;Array Normal;ConsultaIntervalo;4;200;2778600
+10000;aleatoria;Array Normal;ConsultaIntervalo;5;200;2786900
+10000;aleatoria;Array Ordenado;Construcao;1;10000;1362600
+10000;aleatoria;Array Ordenado;Construcao;2;10000;1358700
+10000;aleatoria;Array Ordenado;Construcao;3;10000;1358100
+10000;aleatoria;Array Ordenado;Construcao;4;10000;1354900
+10000;aleatoria;Array Ordenado;Construcao;5;10000;1355000
+10000;aleatoria;Array Ordenado;BuscaPresente;1;2000;108700
+10000;aleatoria;Array Ordenado;BuscaPresente;2;2000;106800
+10000;aleatoria;Array Ordenado;BuscaPresente;3;2000;119400
+10000;aleatoria;Array Ordenado;BuscaPresente;4;2000;104500
+10000;aleatoria;Array Ordenado;BuscaPresente;5;2000;104400
+10000;aleatoria;Array Ordenado;BuscaAusente;1;2000;114800
+10000;aleatoria;Array Ordenado;BuscaAusente;2;2000;118800
+10000;aleatoria;Array Ordenado;BuscaAusente;3;2000;113600
+10000;aleatoria;Array Ordenado;BuscaAusente;4;2000;112900
+10000;aleatoria;Array Ordenado;BuscaAusente;5;2000;114800
+10000;aleatoria;Array Ordenado;Insercao;1;1000;230500
+10000;aleatoria;Array Ordenado;Insercao;2;1000;228400
+10000;aleatoria;Array Ordenado;Insercao;3;1000;227700
+10000;aleatoria;Array Ordenado;Insercao;4;1000;227800
+10000;aleatoria;Array Ordenado;Insercao;5;1000;231300
+10000;aleatoria;Array Ordenado;Remocao;1;1000;204600
+10000;aleatoria;Array Ordenado;Remocao;2;1000;195900
+10000;aleatoria;Array Ordenado;Remocao;3;1000;199200
+10000;aleatoria;Array Ordenado;Remocao;4;1000;197300
+10000;aleatoria;Array Ordenado;Remocao;5;1000;197600
+10000;aleatoria;Array Ordenado;ConsultaIntervalo;1;200;250900
+10000;aleatoria;Array Ordenado;ConsultaIntervalo;2;200;250300
+10000;aleatoria;Array Ordenado;ConsultaIntervalo;3;200;250000
+10000;aleatoria;Array Ordenado;ConsultaIntervalo;4;200;250000
+10000;aleatoria;Array Ordenado;ConsultaIntervalo;5;200;249900
+10000;aleatoria;Lista Encadeada Dupla;Construcao;1;10000;59236100
+10000;aleatoria;Lista Encadeada Dupla;Construcao;2;10000;59301400
+10000;aleatoria;Lista Encadeada Dupla;Construcao;3;10000;59204100
+10000;aleatoria;Lista Encadeada Dupla;Construcao;4;10000;59260900
+10000;aleatoria;Lista Encadeada Dupla;Construcao;5;10000;59229500
+10000;aleatoria;Lista Encadeada Dupla;BuscaPresente;1;2000;11425000
+10000;aleatoria;Lista Encadeada Dupla;BuscaPresente;2;2000;11406800
+10000;aleatoria;Lista Encadeada Dupla;BuscaPresente;3;2000;11405600
+10000;aleatoria;Lista Encadeada Dupla;BuscaPresente;4;2000;11432900
+10000;aleatoria;Lista Encadeada Dupla;BuscaPresente;5;2000;11417600
+10000;aleatoria;Lista Encadeada Dupla;BuscaAusente;1;2000;22785600
+10000;aleatoria;Lista Encadeada Dupla;BuscaAusente;2;2000;22712200
+10000;aleatoria;Lista Encadeada Dupla;BuscaAusente;3;2000;22753900
+10000;aleatoria;Lista Encadeada Dupla;BuscaAusente;4;2000;22921300
+10000;aleatoria;Lista Encadeada Dupla;BuscaAusente;5;2000;22938100
+10000;aleatoria;Lista Encadeada Dupla;Insercao;1;1000;11909800
+10000;aleatoria;Lista Encadeada Dupla;Insercao;2;1000;11871400
+10000;aleatoria;Lista Encadeada Dupla;Insercao;3;1000;11907600
+10000;aleatoria;Lista Encadeada Dupla;Insercao;4;1000;11850800
+10000;aleatoria;Lista Encadeada Dupla;Insercao;5;1000;11976000
+10000;aleatoria;Lista Encadeada Dupla;Remocao;1;1000;5261200
+10000;aleatoria;Lista Encadeada Dupla;Remocao;2;1000;5254900
+10000;aleatoria;Lista Encadeada Dupla;Remocao;3;1000;5256400
+10000;aleatoria;Lista Encadeada Dupla;Remocao;4;1000;5256800
+10000;aleatoria;Lista Encadeada Dupla;Remocao;5;1000;5254400
+10000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;1;200;4473400
+10000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;2;200;4508000
+10000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;3;200;4485800
+10000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;4;200;4453200
+10000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;5;200;4456700
+10000;aleatoria;Tabela Hash;Construcao;1;10000;51500
+10000;aleatoria;Tabela Hash;Construcao;2;10000;50200
+10000;aleatoria;Tabela Hash;Construcao;3;10000;48900
+10000;aleatoria;Tabela Hash;Construcao;4;10000;54700
+10000;aleatoria;Tabela Hash;Construcao;5;10000;50200
+10000;aleatoria;Tabela Hash;BuscaPresente;1;2000;21400
+10000;aleatoria;Tabela Hash;BuscaPresente;2;2000;13900
+10000;aleatoria;Tabela Hash;BuscaPresente;3;2000;16700
+10000;aleatoria;Tabela Hash;BuscaPresente;4;2000;15600
+10000;aleatoria;Tabela Hash;BuscaPresente;5;2000;14400
+10000;aleatoria;Tabela Hash;BuscaAusente;1;2000;10500
+10000;aleatoria;Tabela Hash;BuscaAusente;2;2000;11300
+10000;aleatoria;Tabela Hash;BuscaAusente;3;2000;8600
+10000;aleatoria;Tabela Hash;BuscaAusente;4;2000;8700
+10000;aleatoria;Tabela Hash;BuscaAusente;5;2000;8600
+10000;aleatoria;Tabela Hash;Insercao;1;1000;9900
+10000;aleatoria;Tabela Hash;Insercao;2;1000;7600
+10000;aleatoria;Tabela Hash;Insercao;3;1000;7200
+10000;aleatoria;Tabela Hash;Insercao;4;1000;7300
+10000;aleatoria;Tabela Hash;Insercao;5;1000;7100
+10000;aleatoria;Tabela Hash;Remocao;1;1000;12200
+10000;aleatoria;Tabela Hash;Remocao;2;1000;11100
+10000;aleatoria;Tabela Hash;Remocao;3;1000;13400
+10000;aleatoria;Tabela Hash;Remocao;4;1000;13000
+10000;aleatoria;Tabela Hash;Remocao;5;1000;11200
+10000;aleatoria;Tabela Hash;ConsultaIntervalo;1;200;2498700
+10000;aleatoria;Tabela Hash;ConsultaIntervalo;2;200;2336300
+10000;aleatoria;Tabela Hash;ConsultaIntervalo;3;200;2615600
+10000;aleatoria;Tabela Hash;ConsultaIntervalo;4;200;2385600
+10000;aleatoria;Tabela Hash;ConsultaIntervalo;5;200;2335700
+10000;aleatoria;Arvore Binária de Busca;Construcao;1;10000;523600
+10000;aleatoria;Arvore Binária de Busca;Construcao;2;10000;527900
+10000;aleatoria;Arvore Binária de Busca;Construcao;3;10000;526800
+10000;aleatoria;Arvore Binária de Busca;Construcao;4;10000;521400
+10000;aleatoria;Arvore Binária de Busca;Construcao;5;10000;519600
+10000;aleatoria;Arvore Binária de Busca;BuscaPresente;1;2000;119900
+10000;aleatoria;Arvore Binária de Busca;BuscaPresente;2;2000;114500
+10000;aleatoria;Arvore Binária de Busca;BuscaPresente;3;2000;115200
+10000;aleatoria;Arvore Binária de Busca;BuscaPresente;4;2000;117500
+10000;aleatoria;Arvore Binária de Busca;BuscaPresente;5;2000;114700
+10000;aleatoria;Arvore Binária de Busca;BuscaAusente;1;2000;132400
+10000;aleatoria;Arvore Binária de Busca;BuscaAusente;2;2000;131000
+10000;aleatoria;Arvore Binária de Busca;BuscaAusente;3;2000;130500
+10000;aleatoria;Arvore Binária de Busca;BuscaAusente;4;2000;130000
+10000;aleatoria;Arvore Binária de Busca;BuscaAusente;5;2000;131800
+10000;aleatoria;Arvore Binária de Busca;Insercao;1;1000;81900
+10000;aleatoria;Arvore Binária de Busca;Insercao;2;1000;68300
+10000;aleatoria;Arvore Binária de Busca;Insercao;3;1000;69600
+10000;aleatoria;Arvore Binária de Busca;Insercao;4;1000;67000
+10000;aleatoria;Arvore Binária de Busca;Insercao;5;1000;67300
+10000;aleatoria;Arvore Binária de Busca;Remocao;1;1000;64100
+10000;aleatoria;Arvore Binária de Busca;Remocao;2;1000;61800
+10000;aleatoria;Arvore Binária de Busca;Remocao;3;1000;61300
+10000;aleatoria;Arvore Binária de Busca;Remocao;4;1000;63100
+10000;aleatoria;Arvore Binária de Busca;Remocao;5;1000;61400
+10000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;1;200;98400
+10000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;2;200;97600
+10000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;3;200;99300
+10000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;4;200;97400
+10000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;5;200;97600
+10000;aleatoria;Arvore AVL;Construcao;1;10000;928500
+10000;aleatoria;Arvore AVL;Construcao;2;10000;929300
+10000;aleatoria;Arvore AVL;Construcao;3;10000;916600
+10000;aleatoria;Arvore AVL;Construcao;4;10000;916300
+10000;aleatoria;Arvore AVL;Construcao;5;10000;953400
+10000;aleatoria;Arvore AVL;BuscaPresente;1;2000;106700
+10000;aleatoria;Arvore AVL;BuscaPresente;2;2000;111500
+10000;aleatoria;Arvore AVL;BuscaPresente;3;2000;107300
+10000;aleatoria;Arvore AVL;BuscaPresente;4;2000;105600
+10000;aleatoria;Arvore AVL;BuscaPresente;5;2000;106000
+10000;aleatoria;Arvore AVL;BuscaAusente;1;2000;128600
+10000;aleatoria;Arvore AVL;BuscaAusente;2;2000;131400
+10000;aleatoria;Arvore AVL;BuscaAusente;3;2000;130300
+10000;aleatoria;Arvore AVL;BuscaAusente;4;2000;129000
+10000;aleatoria;Arvore AVL;BuscaAusente;5;2000;127800
+10000;aleatoria;Arvore AVL;Insercao;1;1000;119700
+10000;aleatoria;Arvore AVL;Insercao;2;1000;106500
+10000;aleatoria;Arvore AVL;Insercao;3;1000;108400
+10000;aleatoria;Arvore AVL;Insercao;4;1000;107600
+10000;aleatoria;Arvore AVL;Insercao;5;1000;109600
+10000;aleatoria;Arvore AVL;Remocao;1;1000;147800
+10000;aleatoria;Arvore AVL;Remocao;2;1000;139000
+10000;aleatoria;Arvore AVL;Remocao;3;1000;138200
+10000;aleatoria;Arvore AVL;Remocao;4;1000;134800
+10000;aleatoria;Arvore AVL;Remocao;5;1000;137500
+10000;aleatoria;Arvore AVL;ConsultaIntervalo;1;200;69900
+10000;aleatoria;Arvore AVL;ConsultaIntervalo;2;200;69900
+10000;aleatoria;Arvore AVL;ConsultaIntervalo;3;200;69100
+10000;aleatoria;Arvore AVL;ConsultaIntervalo;4;200;69000
+10000;aleatoria;Arvore AVL;ConsultaIntervalo;5;200;66800
+10000;aleatoria;Arvore Rubro-Negra;Construcao;1;10000;1374200
+10000;aleatoria;Arvore Rubro-Negra;Construcao;2;10000;1388400
+10000;aleatoria;Arvore Rubro-Negra;Construcao;3;10000;1365300
+10000;aleatoria;Arvore Rubro-Negra;Construcao;4;10000;1362500
+10000;aleatoria;Arvore Rubro-Negra;Construcao;5;10000;1368800
+10000;aleatoria;Arvore Rubro-Negra;BuscaPresente;1;2000;123500
+10000;aleatoria;Arvore Rubro-Negra;BuscaPresente;2;2000;122400
+10000;aleatoria;Arvore Rubro-Negra;BuscaPresente;3;2000;137100
+10000;aleatoria;Arvore Rubro-Negra;BuscaPresente;4;2000;122300
+10000;aleatoria;Arvore Rubro-Negra;BuscaPresente;5;2000;126000
+10000;aleatoria;Arvore Rubro-Negra;BuscaAusente;1;2000;141800
+10000;aleatoria;Arvore Rubro-Negra;BuscaAusente;2;2000;139900
+10000;aleatoria;Arvore Rubro-Negra;BuscaAusente;3;2000;150200
+10000;aleatoria;Arvore Rubro-Negra;BuscaAusente;4;2000;142400
+10000;aleatoria;Arvore Rubro-Negra;BuscaAusente;5;2000;142000
+10000;aleatoria;Arvore Rubro-Negra;Insercao;1;1000;154800
+10000;aleatoria;Arvore Rubro-Negra;Insercao;2;1000;152200
+10000;aleatoria;Arvore Rubro-Negra;Insercao;3;1000;155700
+10000;aleatoria;Arvore Rubro-Negra;Insercao;4;1000;159400
+10000;aleatoria;Arvore Rubro-Negra;Insercao;5;1000;150900
+10000;aleatoria;Arvore Rubro-Negra;Remocao;1;1000;80100
+10000;aleatoria;Arvore Rubro-Negra;Remocao;2;1000;78300
+10000;aleatoria;Arvore Rubro-Negra;Remocao;3;1000;79800
+10000;aleatoria;Arvore Rubro-Negra;Remocao;4;1000;87400
+10000;aleatoria;Arvore Rubro-Negra;Remocao;5;1000;80600
+10000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;1;200;75000
+10000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;2;200;80600
+10000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;3;200;78100
+10000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;4;200;75600
+10000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;5;200;73500
+100000;crescente;Array Normal;Construcao;1;100000;602692400
+100000;crescente;Array Normal;Construcao;2;100000;602963600
+100000;crescente;Array Normal;Construcao;3;100000;603154200
+100000;crescente;Array Normal;Construcao;4;100000;615534100
+100000;crescente;Array Normal;Construcao;5;100000;602615300
+100000;crescente;Array Normal;BuscaPresente;1;2000;13248000
+100000;crescente;Array Normal;BuscaPresente;2;2000;13347100
+100000;crescente;Array Normal;BuscaPresente;3;2000;13247100
+100000;crescente;Array Normal;BuscaPresente;4;2000;13265900
+100000;crescente;Array Normal;BuscaPresente;5;2000;13255500
+100000;crescente;Array Normal;BuscaAusente;1;2000;24128700
+100000;crescente;Array Normal;BuscaAusente;2;2000;24113200
+100000;crescente;Array Normal;BuscaAusente;3;2000;24137000
+100000;crescente;Array Normal;BuscaAusente;4;2000;24192500
+100000;crescente;Array Normal;BuscaAusente;5;2000;24131800
+100000;crescente;Array Normal;Insercao;1;10000;134000000
+100000;crescente;Array Normal;Insercao;2;10000;135846600
+100000;crescente;Array Normal;Insercao;3;10000;134137700
+100000;crescente;Array Normal;Insercao;4;10000;132989700
+100000;crescente;Array Normal;Insercao;5;10000;133046600
+100000;crescente;Array Normal;Remocao;1;10000;86238000
+100000;crescente;Array Normal;Remocao;2;10000;89263900
+100000;crescente;Array Normal;Remocao;3;10000;89548400
+100000;crescente;Array Normal;Remocao;4;10000;88243700
+100000;crescente;Array Normal;Remocao;5;10000;86677000
+100000;crescente;Array Normal;ConsultaIntervalo;1;200;5565600
+100000;crescente;Array Normal;ConsultaIntervalo;2;200;5593300
+100000;crescente;Array Normal;ConsultaIntervalo;3;200;5790500
+100000;crescente;Array Normal;ConsultaIntervalo;4;200;5575800
+100000;crescente;Array Normal;ConsultaIntervalo;5;200;5649200
+100000;crescente;Array Ordenado;Construcao;1;100000;1966900
+100000;crescente;Array Ordenado;Construcao;2;100000;2024500
+100000;crescente;Array Ordenado;Construcao;3;100000;1951700
+100000;crescente;Array Ordenado;Construcao;4;100000;2044700
+100000;crescente;Array Ordenado;Construcao;5;100000;2001000
+100000;crescente;Array Ordenado;BuscaPresente;1;2000;161200
+100000;crescente;Array Ordenado;BuscaPresente;2;2000;148900
+100000;crescente;Array Ordenado;BuscaPresente;3;2000;140600
+100000;crescente;Array Ordenado;BuscaPresente;4;2000;165500
+100000;crescente;Array Ordenado;BuscaPresente;5;2000;140600
+100000;crescente;Array Ordenado;BuscaAusente;1;2000;158000
+100000;crescente;Array Ordenado;BuscaAusente;2;2000;147000
+100000;crescente;Array Ordenado;BuscaAusente;3;2000;144600
+100000;crescente;Array Ordenado;BuscaAusente;4;2000;153800
+100000;crescente;Array Ordenado;BuscaAusente;5;2000;146800
+100000;crescente;Array Ordenado;Insercao;1;10000;22266100
+100000;crescente;Array Ordenado;Insercao;2;10000;23613900
+100000;crescente;Array Ordenado;Insercao;3;10000;33725400
+100000;crescente;Array Ordenado;Insercao;4;10000;23489400
+100000;crescente;Array Ordenado;Insercao;5;10000;22890700
+100000;crescente;Array Ordenado;Remocao;1;10000;23604400
+100000;crescente;Array Ordenado;Remocao;2;10000;21075900
+100000;crescente;Array Ordenado;Remocao;3;10000;20966800
+100000;crescente;Array Ordenado;Remocao;4;10000;24669000
+100000;crescente;Array Ordenado;Remocao;5;10000;21024300
+100000;crescente;Array Ordenado;ConsultaIntervalo;1;200;2504200
+100000;crescente;Array Ordenado;ConsultaIntervalo;2;200;2501900
+100000;crescente;Array Ordenado;ConsultaIntervalo;3;200;2468500
+100000;crescente;Array Ordenado;ConsultaIntervalo;4;200;2555700
+100000;crescente;Array Ordenado;ConsultaIntervalo;5;200;3565100
+100000;crescente;Lista Encadeada Dupla;Construcao;1;100000;5948772600
+100000;crescente;Lista Encadeada Dupla;Construcao;2;100000;5960580700
+100000;crescente;Lista Encadeada Dupla;Construcao;3;100000;5977286900
+100000;crescente;Lista Encadeada Dupla;Construcao;4;100000;5964011300
+100000;crescente;Lista Encadeada Dupla;Construcao;5;100000;5957831300
+100000;crescente;Lista Encadeada Dupla;BuscaPresente;1;2000;115902400
+100000;crescente;Lista Encadeada Dupla;BuscaPresente;2;2000;115360400
+100000;crescente;Lista Encadeada Dupla;BuscaPresente;3;2000;115566500
+100000;crescente;Lista Encadeada Dupla;BuscaPresente;4;2000;114896200
+100000;crescente;Lista Encadeada Dupla;BuscaPresente;5;2000;115559800
+100000;crescente;Lista Encadeada Dupla;BuscaAusente;1;2000;231403500
+100000;crescente;Lista Encadeada Dupla;BuscaAusente;2;2000;230360600
+100000;crescente;Lista Encadeada Dupla;BuscaAusente;3;2000;231140600
+100000;crescente;Lista Encadeada Dupla;BuscaAusente;4;2000;231279400
+100000;crescente;Lista Encadeada Dupla;BuscaAusente;5;2000;232302700
+100000;crescente;Lista Encadeada Dupla;Insercao;1;10000;1198750800
+100000;crescente;Lista Encadeada Dupla;Insercao;2;10000;1199075900
+100000;crescente;Lista Encadeada Dupla;Insercao;3;10000;1196682800
+100000;crescente;Lista Encadeada Dupla;Insercao;4;10000;1180247400
+100000;crescente;Lista Encadeada Dupla;Insercao;5;10000;1218360100
+100000;crescente;Lista Encadeada Dupla;Remocao;1;10000;522973700
+100000;crescente;Lista Encadeada Dupla;Remocao;2;10000;531629600
+100000;crescente;Lista Encadeada Dupla;Remocao;3;10000;525585100
+100000;crescente;Lista Encadeada Dupla;Remocao;4;10000;522617000
+100000;crescente;Lista Encadeada Dupla;Remocao;5;10000;528097700
+100000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;1;200;22015500
+100000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;2;200;22164000
+100000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;3;200;22092700
+100000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;4;200;24369300
+100000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;5;200;22125700
+100000;crescente;Tabela Hash;Construcao;1;100000;2199800
+100000;crescente;Tabela Hash;Construcao;2;100000;503600
+100000;crescente;Tabela Hash;Construcao;3;100000;497600
+100000;crescente;Tabela Hash;Construcao;4;100000;507600
+100000;crescente;Tabela Hash;Construcao;5;100000;503500
+100000;crescente;Tabela Hash;BuscaPresente;1;2000;46300
+100000;crescente;Tabela Hash;BuscaPresente;2;2000;40400
+100000;crescente;Tabela Hash;BuscaPresente;3;2000;32200
+100000;crescente;Tabela Hash;BuscaPresente;4;2000;42900
+100000;crescente;Tabela Hash;BuscaPresente;5;2000;37800
+100000;crescente;Tabela Hash;BuscaAusente;1;2000;13200
+100000;crescente;Tabela Hash;BuscaAusente;2;2000;12800
+100000;crescente;Tabela Hash;BuscaAusente;3;2000;29400
+100000;crescente;Tabela Hash;BuscaAusente;4;2000;13100
+100000;crescente;Tabela Hash;BuscaAusente;5;2000;12500
+100000;crescente;Tabela Hash;Insercao;1;10000;72800
+100000;crescente;Tabela Hash;Insercao;2;10000;70300
+100000;crescente;Tabela Hash;Insercao;3;10000;69600
+100000;crescente;Tabela Hash;Insercao;4;10000;70000
+100000;crescente;Tabela Hash;Insercao;5;10000;70200
+100000;crescente;Tabela Hash;Remocao;1;10000;124600
+100000;crescente;Tabela Hash;Remocao;2;10000;92900
+100000;crescente;Tabela Hash;Remocao;3;10000;88500
+100000;crescente;Tabela Hash;Remocao;4;10000;231400
+100000;crescente;Tabela Hash;Remocao;5;10000;129400
+100000;crescente;Tabela Hash;ConsultaIntervalo;1;200;30025700
+100000;crescente;Tabela Hash;ConsultaIntervalo;2;200;30955300
+100000;crescente;Tabela Hash;ConsultaIntervalo;3;200;32193600
+100000;crescente;Tabela Hash;ConsultaIntervalo;4;200;31086500
+100000;crescente;Tabela Hash;ConsultaIntervalo;5;200;34225300
+100000;crescente;Arvore Binária de Busca;Construcao;1;100000;5889847300
+100000;crescente;Arvore Binária de Busca;Construcao;2;100000;5874304800
+100000;crescente;Arvore Binária de Busca;Construcao;3;100000;5882940700
+100000;crescente;Arvore Binária de Busca;Construcao;4;100000;5896701900
+100000;crescente;Arvore Binária de Busca;Construcao;5;100000;5898160400
+100000;crescente;Arvore Binária de Busca;BuscaPresente;1;2000;112262900
+100000;crescente;Arvore Binária de Busca;BuscaPresente;2;2000;112299300
+100000;crescente;Arvore Binária de Busca;BuscaPresente;3;2000;112380500
+100000;crescente;Arvore Binária de Busca;BuscaPresente;4;2000;112089600
+100000;crescente;Arvore Binária de Busca;BuscaPresente;5;2000;112055500
+100000;crescente;Arvore Binária de Busca;BuscaAusente;1;2000;112412400
+100000;crescente;Arvore Binária de Busca;BuscaAusente;2;2000;112348900
+100000;crescente;Arvore Binária de Busca;BuscaAusente;3;2000;112305400
+100000;crescente;Arvore Binária de Busca;BuscaAusente;4;2000;112557000
+100000;crescente;Arvore Binária de Busca;BuscaAusente;5;2000;112658600
+100000;crescente;Arvore Binária de Busca;Insercao;1;10000;605675900
+100000;crescente;Arvore Binária de Busca;Insercao;2;10000;593820700
+100000;crescente;Arvore Binária de Busca;Insercao;3;10000;593876500
+100000;crescente;Arvore Binária de Busca;Insercao;4;10000;598812700
+100000;crescente;Arvore Binária de Busca;Insercao;5;10000;598363800
+100000;crescente;Arvore Binária de Busca;Remocao;1;10000;516011900
+100000;crescente;Arvore Binária de Busca;Remocao;2;10000;515801100
+100000;crescente;Arvore Binária de Busca;Remocao;3;10000;513065400
+100000;crescente;Arvore Binária de Busca;Remocao;4;10000;513884300
+100000;crescente;Arvore Binária de Busca;Remocao;5;10000;514218600
+100000;crescente;Arvore Binária de Busca;ConsultaIntervalo;1;200;20833900
+100000;crescente;Arvore Binária de Busca;ConsultaIntervalo;2;200;20412500
+100000;crescente;Arvore Binária de Busca;ConsultaIntervalo;3;200;20264700
+100000;crescente;Arvore Binária de Busca;ConsultaIntervalo;4;200;20269100
+100000;crescente;Arvore Binária de Busca;ConsultaIntervalo;5;200;20351100
+100000;crescente;Arvore AVL;Construcao;1;100000;6455800
+100000;crescente;Arvore AVL;Construcao;2;100000;6471700
+100000;crescente;Arvore AVL;Construcao;3;100000;6504600
+100000;crescente;Arvore AVL;Construcao;4;100000;9659300
+100000;crescente;Arvore AVL;Construcao;5;100000;6237000
+100000;crescente;Arvore AVL;BuscaPresente;1;2000;234500
+100000;crescente;Arvore AVL;BuscaPresente;2;2000;240200
+100000;crescente;Arvore AVL;BuscaPresente;3;2000;264500
+100000;crescente;Arvore AVL;BuscaPresente;4;2000;261600
+100000;crescente;Arvore AVL;BuscaPresente;5;2000;252400
+100000;crescente;Arvore AVL;BuscaAusente;1;2000;265000
+100000;crescente;Arvore AVL;BuscaAusente;2;2000;288500
+100000;crescente;Arvore AVL;BuscaAusente;3;2000;272300
+100000;crescente;Arvore AVL;BuscaAusente;4;2000;319100
+100000;crescente;Arvore AVL;BuscaAusente;5;2000;272100
+100000;crescente;Arvore AVL;Insercao;1;10000;1891500
+100000;crescente;Arvore AVL;Insercao;2;10000;1844800
+100000;crescente;Arvore AVL;Insercao;3;10000;1862100
+100000;crescente;Arvore AVL;Insercao;4;10000;1850900
+100000;crescente;Arvore AVL;Insercao;5;10000;2082100
+100000;crescente;Arvore AVL;Remocao;1;10000;2114400
+100000;crescente;Arvore AVL;Remocao;2;10000;1774400
+100000;crescente;Arvore AVL;Remocao;3;10000;1650900
+100000;crescente;Arvore AVL;Remocao;4;10000;1749200
+100000;crescente;Arvore AVL;Remocao;5;10000;1769900
+100000;crescente;Arvore AVL;ConsultaIntervalo;1;200;79300
+100000;crescente;Arvore AVL;ConsultaIntervalo;2;200;67700
+100000;crescente;Arvore AVL;ConsultaIntervalo;3;200;165000
+100000;crescente;Arvore AVL;ConsultaIntervalo;4;200;100300
+100000;crescente;Arvore AVL;ConsultaIntervalo;5;200;171000
+100000;crescente;Arvore Rubro-Negra;Construcao;1;100000;16523200
+100000;crescente;Arvore Rubro-Negra;Construcao;2;100000;20918800
+100000;crescente;Arvore Rubro-Negra;Construcao;3;100000;19397000
+100000;crescente;Arvore Rubro-Negra;Construcao;4;100000;16785900
+100000;crescente;Arvore Rubro-Negra;Construcao;5;100000;17298000
+100000;crescente;Arvore Rubro-Negra;BuscaPresente;1;2000;295700
+100000;crescente;Arvore Rubro-Negra;BuscaPresente;2;2000;314600
+100000;crescente;Arvore Rubro-Negra;BuscaPresente;3;2000;571700
+100000;crescente;Arvore Rubro-Negra;BuscaPresente;4;2000;295500
+100000;crescente;Arvore Rubro-Negra;BuscaPresente;5;2000;287800
+100000;crescente;Arvore Rubro-Negra;BuscaAusente;1;2000;628800
+100000;crescente;Arvore Rubro-Negra;BuscaAusente;2;2000;309600
+100000;crescente;Arvore Rubro-Negra;BuscaAusente;3;2000;308700
+100000;crescente;Arvore Rubro-Negra;BuscaAusente;4;2000;1032300
+100000;crescente;Arvore Rubro-Negra;BuscaAusente;5;2000;944900
+100000;crescente;Arvore Rubro-Negra;Insercao;1;10000;3094300
+100000;crescente;Arvore Rubro-Negra;Insercao;2;10000;3081800
+100000;crescente;Arvore Rubro-Negra;Insercao;3;10000;2398000
+100000;crescente;Arvore Rubro-Negra;Insercao;4;10000;3022100
+100000;crescente;Arvore Rubro-Negra;Insercao;5;10000;2414500
+100000;crescente;Arvore Rubro-Negra;Remocao;1;10000;1273400
+100000;crescente;Arvore Rubro-Negra;Remocao;2;10000;867200
+100000;crescente;Arvore Rubro-Negra;Remocao;3;10000;871700
+100000;crescente;Arvore Rubro-Negra;Remocao;4;10000;1288800
+100000;crescente;Arvore Rubro-Negra;Remocao;5;10000;1123400
+100000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;1;200;101100
+100000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;2;200;226000
+100000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;3;200;122400
+100000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;4;200;101100
+100000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;5;200;85300
+100000;decrescente;Array Normal;Construcao;1;100000;627303700
+100000;decrescente;Array Normal;Construcao;2;100000;640466000
+100000;decrescente;Array Normal;Construcao;3;100000;626041600
+100000;decrescente;Array Normal;Construcao;4;100000;631548600
+100000;decrescente;Array Normal;Construcao;5;100000;626641700
+100000;decrescente;Array Normal;BuscaPresente;1;2000;13808400
+100000;decrescente;Array Normal;BuscaPresente;2;2000;13851900
+100000;decrescente;Array Normal;BuscaPresente;3;2000;13899300
+100000;decrescente;Array Normal;BuscaPresente;4;2000;13759000
+100000;decrescente;Array Normal;BuscaPresente;5;2000;13731100
+100000;decrescente;Array Normal;BuscaAusente;1;2000;25287300
+100000;decrescente;Array Normal;BuscaAusente;2;2000;25067600
+100000;decrescente;Array Normal;BuscaAusente;3;2000;25777600
+100000;decrescente;Array Normal;BuscaAusente;4;2000;27531900
+100000;decrescente;Array Normal;BuscaAusente;5;2000;25205100
+100000;decrescente;Array Normal;Insercao;1;10000;135991200
+100000;decrescente;Array Normal;Insercao;2;10000;132767100
+100000;decrescente;Array Normal;Insercao;3;10000;134490100
+100000;decrescente;Array Normal;Insercao;4;10000;133103400
+100000;decrescente;Array Normal;Insercao;5;10000;132561100
+100000;decrescente;Array Normal;Remocao;1;10000;86104600
+100000;decrescente;Array Normal;Remocao;2;10000;89285900
+100000;decrescente;Array Normal;Remocao;3;10000;89924100
+100000;decrescente;Array Normal;Remocao;4;10000;88919100
+100000;decrescente;Array Normal;Remocao;5;10000;90044800
+100000;decrescente;Array Normal;ConsultaIntervalo;1;200;5747100
+100000;decrescente;Array Normal;ConsultaIntervalo;2;200;5688100
+100000;decrescente;Array Normal;ConsultaIntervalo;3;200;5588300
+100000;decrescente;Array Normal;ConsultaIntervalo;4;200;5775800
+100000;decrescente;Array Normal;ConsultaIntervalo;5;200;5593100
+100000;decrescente;Array Ordenado;Construcao;1;100000;218918600
+100000;decrescente;Array Ordenado;Construcao;2;100000;220255200
+100000;decrescente;Array Ordenado;Construcao;3;100000;221226600
+100000;decrescente;Array Ordenado;Construcao;4;100000;219983600
+100000;decrescente;Array Ordenado;Construcao;5;100000;221324900
+100000;decrescente;Array Ordenado;BuscaPresente;1;2000;167800
+100000;decrescente;Array Ordenado;BuscaPresente;2;2000;166200
+100000;decrescente;Array Ordenado;BuscaPresente;3;2000;165400
+100000;decrescente;Array Ordenado;BuscaPresente;4;2000;166900
+100000;decrescente;Array Ordenado;BuscaPresente;5;2000;166000
+100000;decrescente;Array Ordenado;BuscaAusente;1;2000;174700
+100000;decrescente;Array Ordenado;BuscaAusente;2;2000;174800
+100000;decrescente;Array Ordenado;BuscaAusente;3;2000;200400
+100000;decrescente;Array Ordenado;BuscaAusente;4;2000;174400
+100000;decrescente;Array Ordenado;BuscaAusente;5;2000;181400
+100000;decrescente;Array Ordenado;Insercao;1;10000;22540300
+100000;decrescente;Array Ordenado;Insercao;2;10000;22365500
+100000;decrescente;Array Ordenado;Insercao;3;10000;22439900
+100000;decrescente;Array Ordenado;Insercao;4;10000;22300500
+100000;decrescente;Array Ordenado;Insercao;5;10000;22266400
+100000;decrescente;Array Ordenado;Remocao;1;10000;20909300
+100000;decrescente;Array Ordenado;Remocao;2;10000;20937700
+100000;decrescente;Array Ordenado;Remocao;3;10000;21007700
+100000;decrescente;Array Ordenado;Remocao;4;10000;21086700
+100000;decrescente;Array Ordenado;Remocao;5;10000;20931200
+100000;decrescente;Array Ordenado;ConsultaIntervalo;1;200;2550000
+100000;decrescente;Array Ordenado;ConsultaIntervalo;2;200;2572900
+100000;decrescente;Array Ordenado;ConsultaIntervalo;3;200;2544800
+100000;decrescente;Array Ordenado;ConsultaIntervalo;4;200;2574000
+100000;decrescente;Array Ordenado;ConsultaIntervalo;5;200;2553800
+100000;decrescente;Lista Encadeada Dupla;Construcao;1;100000;5995885300
+100000;decrescente;Lista Encadeada Dupla;Construcao;2;100000;6005951000
+100000;decrescente;Lista Encadeada Dupla;Construcao;3;100000;6006516100
+100000;decrescente;Lista Encadeada Dupla;Construcao;4;100000;5999903000
+100000;decrescente;Lista Encadeada Dupla;Construcao;5;100000;6003669500
+100000;decrescente;Lista Encadeada Dupla;BuscaPresente;1;2000;114588100
+100000;decrescente;Lista Encadeada Dupla;BuscaPresente;2;2000;114319600
+100000;decrescente;Lista Encadeada Dupla;BuscaPresente;3;2000;116075100
+100000;decrescente;Lista Encadeada Dupla;BuscaPresente;4;2000;116120800
+100000;decrescente;Lista Encadeada Dupla;BuscaPresente;5;2000;116227200
+100000;decrescente;Lista Encadeada Dupla;BuscaAusente;1;2000;230830500
+100000;decrescente;Lista Encadeada Dupla;BuscaAusente;2;2000;232134800
+100000;decrescente;Lista Encadeada Dupla;BuscaAusente;3;2000;236232600
+100000;decrescente;Lista Encadeada Dupla;BuscaAusente;4;2000;230962200
+100000;decrescente;Lista Encadeada Dupla;BuscaAusente;5;2000;233459500
+100000;decrescente;Lista Encadeada Dupla;Insercao;1;10000;1197102300
+100000;decrescente;Lista Encadeada Dupla;Insercao;2;10000;1211220300
+100000;decrescente;Lista Encadeada Dupla;Insercao;3;10000;1201757600
+100000;decrescente;Lista Encadeada Dupla;Insercao;4;10000;1202971000
+100000;decrescente;Lista Encadeada Dupla;Insercao;5;10000;1201331300
+100000;decrescente;Lista Encadeada Dupla;Remocao;1;10000;526022500
+100000;decrescente;Lista Encadeada Dupla;Remocao;2;10000;525807400
+100000;decrescente;Lista Encadeada Dupla;Remocao;3;10000;516570500
+100000;decrescente;Lista Encadeada Dupla;Remocao;4;10000;534579600
+100000;decrescente;Lista Encadeada Dupla;Remocao;5;10000;526248600
+100000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;1;200;22176000
+100000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;2;200;22243900
+100000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;3;200;22289500
+100000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;4;200;22234800
+100000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;5;200;22106200
+100000;decrescente;Tabela Hash;Construcao;1;100000;649300
+100000;decrescente;Tabela Hash;Construcao;2;100000;666800
+100000;decrescente;Tabela Hash;Construcao;3;100000;649900
+100000;decrescente;Tabela Hash;Construcao;4;100000;652700
+100000;decrescente;Tabela Hash;Construcao;5;100000;652200
+100000;decrescente;Tabela Hash;BuscaPresente;1;2000;42100
+100000;decrescente;Tabela Hash;BuscaPresente;2;2000;34300
+100000;decrescente;Tabela Hash;BuscaPresente;3;2000;34200
+100000;decrescente;Tabela Hash;BuscaPresente;4;2000;33400
+100000;decrescente;Tabela Hash;BuscaPresente;5;2000;36000
+100000;decrescente;Tabela Hash;BuscaAusente;1;2000;18500
+100000;decrescente;Tabela Hash;BuscaAusente;2;2000;13500
+100000;decrescente;Tabela Hash;BuscaAusente;3;2000;13100
+100000;decrescente;Tabela Hash;BuscaAusente;4;2000;13000
+100000;decrescente;Tabela Hash;BuscaAusente;5;2000;13300
+100000;decrescente;Tabela Hash;Insercao;1;10000;69500
+100000;decrescente;Tabela Hash;Insercao;2;10000;71000
+100000;decrescente;Tabela Hash;Insercao;3;10000;68300
+100000;decrescente;Tabela Hash;Insercao;4;10000;68200
+100000;decrescente;Tabela Hash;Insercao;5;10000;72900
+100000;decrescente;Tabela Hash;Remocao;1;10000;140900
+100000;decrescente;Tabela Hash;Remocao;2;10000;138200
+100000;decrescente;Tabela Hash;Remocao;3;10000;132300
+100000;decrescente;Tabela Hash;Remocao;4;10000;134200
+100000;decrescente;Tabela Hash;Remocao;5;10000;137500
+100000;decrescente;Tabela Hash;ConsultaIntervalo;1;200;32568200
+100000;decrescente;Tabela Hash;ConsultaIntervalo;2;200;31779700
+100000;decrescente;Tabela Hash;ConsultaIntervalo;3;200;35086400
+100000;decrescente;Tabela Hash;ConsultaIntervalo;4;200;30694000
+100000;decrescente;Tabela Hash;ConsultaIntervalo;5;200;31081300
+100000;decrescente;Arvore Binária de Busca;Construcao;1;100000;5865871800
+100000;decrescente;Arvore Binária de Busca;Construcao;2;100000;5969562600
+100000;decrescente;Arvore Binária de Busca;Construcao;3;100000;5898220300
+100000;decrescente;Arvore Binária de Busca;Construcao;4;100000;5935584600
+100000;decrescente;Arvore Binária de Busca;Construcao;5;100000;5895491000
+100000;decrescente;Arvore Binária de Busca;BuscaPresente;1;2000;117529500
+100000;decrescente;Arvore Binária de Busca;BuscaPresente;2;2000;113134400
+100000;decrescente;Arvore Binária de Busca;BuscaPresente;3;2000;116832800
+100000;decrescente;Arvore Binária de Busca;BuscaPresente;4;2000;116890900
+100000;decrescente;Arvore Binária de Busca;BuscaPresente;5;2000;116421400
+100000;decrescente;Arvore Binária de Busca;BuscaAusente;1;2000;116071100
+100000;decrescente;Arvore Binária de Busca;BuscaAusente;2;2000;116482200
+100000;decrescente;Arvore Binária de Busca;BuscaAusente;3;2000;116017400
+100000;decrescente;Arvore Binária de Busca;BuscaAusente;4;2000;115906700
+100000;decrescente;Arvore Binária de Busca;BuscaAusente;5;2000;116164800
+100000;decrescente;Arvore Binária de Busca;Insercao;1;10000;579162800
+100000;decrescente;Arvore Binária de Busca;Insercao;2;10000;578950000
+100000;decrescente;Arvore Binária de Busca;Insercao;3;10000;580226200
+100000;decrescente;Arvore Binária de Busca;Insercao;4;10000;561847200
+100000;decrescente;Arvore Binária de Busca;Insercao;5;10000;581143700
+100000;decrescente;Arvore Binária de Busca;Remocao;1;10000;515723800
+100000;decrescente;Arvore Binária de Busca;Remocao;2;10000;514275600
+100000;decrescente;Arvore Binária de Busca;Remocao;3;10000;514073600
+100000;decrescente;Arvore Binária de Busca;Remocao;4;10000;516276400
+100000;decrescente;Arvore Binária de Busca;Remocao;5;10000;514938300
+100000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;1;200;24289600
+100000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;2;200;24203600
+100000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;3;200;23890200
+100000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;4;200;23684600
+100000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;5;200;23189700
+100000;decrescente;Arvore AVL;Construcao;1;100000;7158900
+100000;decrescente;Arvore AVL;Construcao;2;100000;7152700
+100000;decrescente;Arvore AVL;Construcao;3;100000;7218600
+100000;decrescente;Arvore AVL;Construcao;4;100000;7306400
+100000;decrescente;Arvore AVL;Construcao;5;100000;7409200
+100000;decrescente;Arvore AVL;BuscaPresente;1;2000;512500
+100000;decrescente;Arvore AVL;BuscaPresente;2;2000;265500
+100000;decrescente;Arvore AVL;BuscaPresente;3;2000;282100
+100000;decrescente;Arvore AVL;BuscaPresente;4;2000;292200
+100000;decrescente;Arvore AVL;BuscaPresente;5;2000;269500
+100000;decrescente;Arvore AVL;BuscaAusente;1;2000;299000
+100000;decrescente;Arvore AVL;BuscaAusente;2;2000;328000
+100000;decrescente;Arvore AVL;BuscaAusente;3;2000;325000
+100000;decrescente;Arvore AVL;BuscaAusente;4;2000;283600
+100000;decrescente;Arvore AVL;BuscaAusente;5;2000;314900
+100000;decrescente;Arvore AVL;Insercao;1;10000;2026900
+100000;decrescente;Arvore AVL;Insercao;2;10000;2029700
+100000;decrescente;Arvore AVL;Insercao;3;10000;1807700
+100000;decrescente;Arvore AVL;Insercao;4;10000;1964300
+100000;decrescente;Arvore AVL;Insercao;5;10000;1976000
+100000;decrescente;Arvore AVL;Remocao;1;10000;3116500
+100000;decrescente;Arvore AVL;Remocao;2;10000;2697300
+100000;decrescente;Arvore AVL;Remocao;3;10000;3576400
+100000;decrescente;Arvore AVL;Remocao;4;10000;3098600
+100000;decrescente;Arvore AVL;Remocao;5;10000;2922000
+100000;decrescente;Arvore AVL;ConsultaIntervalo;1;200;104600
+100000;decrescente;Arvore AVL;ConsultaIntervalo;2;200;89300
+100000;decrescente;Arvore AVL;ConsultaIntervalo;3;200;93300
+100000;decrescente;Arvore AVL;ConsultaIntervalo;4;200;87000
+100000;decrescente;Arvore AVL;ConsultaIntervalo;5;200;125900
+100000;decrescente;Arvore Rubro-Negra;Construcao;1;100000;17911300
+100000;decrescente;Arvore Rubro-Negra;Construcao;2;100000;17921400
+100000;decrescente;Arvore Rubro-Negra;Construcao;3;100000;18907800
+100000;decrescente;Arvore Rubro-Negra;Construcao;4;100000;18166900
+100000;decrescente;Arvore Rubro-Negra;Construcao;5;100000;17121300
+100000;decrescente;Arvore Rubro-Negra;BuscaPresente;1;2000;463400
+100000;decrescente;Arvore Rubro-Negra;BuscaPresente;2;2000;343900
+100000;decrescente;Arvore Rubro-Negra;BuscaPresente;3;2000;343300
+100000;decrescente;Arvore Rubro-Negra;BuscaPresente;4;2000;663600
+100000;decrescente;Arvore Rubro-Negra;BuscaPresente;5;2000;302600
+100000;decrescente;Arvore Rubro-Negra;BuscaAusente;1;2000;646200
+100000;decrescente;Arvore Rubro-Negra;BuscaAusente;2;2000;618200
+100000;decrescente;Arvore Rubro-Negra;BuscaAusente;3;2000;625300
+100000;decrescente;Arvore Rubro-Negra;BuscaAusente;4;2000;778500
+100000;decrescente;Arvore Rubro-Negra;BuscaAusente;5;2000;428300
+100000;decrescente;Arvore Rubro-Negra;Insercao;1;10000;4177100
+100000;decrescente;Arvore Rubro-Negra;Insercao;2;10000;2867300
+100000;decrescente;Arvore Rubro-Negra;Insercao;3;10000;2546400
+100000;decrescente;Arvore Rubro-Negra;Insercao;4;10000;3895900
+100000;decrescente;Arvore Rubro-Negra;Insercao;5;10000;3511800
+100000;decrescente;Arvore Rubro-Negra;Remocao;1;10000;1645000
+100000;decrescente;Arvore Rubro-Negra;Remocao;2;10000;1055400
+100000;decrescente;Arvore Rubro-Negra;Remocao;3;10000;958600
+100000;decrescente;Arvore Rubro-Negra;Remocao;4;10000;1096600
+100000;decrescente;Arvore Rubro-Negra;Remocao;5;10000;1077300
+100000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;1;200;92600
+100000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;2;200;258900
+100000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;3;200;114600
+100000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;4;200;105000
+100000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;5;200;265700
+100000;aleatoria;Array Normal;Construcao;1;100000;634119000
+100000;aleatoria;Array Normal;Construcao;2;100000;630384800
+100000;aleatoria;Array Normal;Construcao;3;100000;628336400
+100000;aleatoria;Array Normal;Construcao;4;100000;674350400
+100000;aleatoria;Array Normal;Construcao;5;100000;628549300
+100000;aleatoria;Array Normal;BuscaPresente;1;2000;14108900
+100000;aleatoria;Array Normal;BuscaPresente;2;2000;13765100
+100000;aleatoria;Array Normal;BuscaPresente;3;2000;13742100
+100000;aleatoria;Array Normal;BuscaPresente;4;2000;14135600
+100000;aleatoria;Array Normal;BuscaPresente;5;2000;13994600
+100000;aleatoria;Array Normal;BuscaAusente;1;2000;24964700
+100000;aleatoria;Array Normal;BuscaAusente;2;2000;26119800
+100000;aleatoria;Array Normal;BuscaAusente;3;2000;25086300
+100000;aleatoria;Array Normal;BuscaAusente;4;2000;24758400
+100000;aleatoria;Array Normal;BuscaAusente;5;2000;27015500
+100000;aleatoria;Array Normal;Insercao;1;10000;133903600
+100000;aleatoria;Array Normal;Insercao;2;10000;135383200
+100000;aleatoria;Array Normal;Insercao;3;10000;133150300
+100000;aleatoria;Array Normal;Insercao;4;10000;132519900
+100000;aleatoria;Array Normal;Insercao;5;10000;134809100
+100000;aleatoria;Array Normal;Remocao;1;10000;89018600
+100000;aleatoria;Array Normal;Remocao;2;10000;86072500
+100000;aleatoria;Array Normal;Remocao;3;10000;86320600
+100000;aleatoria;Array Normal;Remocao;4;10000;86582800
+100000;aleatoria;Array Normal;Remocao;5;10000;89302700
+100000;aleatoria;Array Normal;ConsultaIntervalo;1;200;32075500
+100000;aleatoria;Array Normal;ConsultaIntervalo;2;200;32062200
+100000;aleatoria;Array Normal;ConsultaIntervalo;3;200;31961600
+100000;aleatoria;Array Normal;ConsultaIntervalo;4;200;32229600
+100000;aleatoria;Array Normal;ConsultaIntervalo;5;200;31965200
+100000;aleatoria;Array Ordenado;Construcao;1;100000;119676400
+100000;aleatoria;Array Ordenado;Construcao;2;100000;117770200
+100000;aleatoria;Array Ordenado;Construcao;3;100000;118091600
+100000;aleatoria;Array Ordenado;Construcao;4;100000;119368500
+100000;aleatoria;Array Ordenado;Construcao;5;100000;115931500
+100000;aleatoria;Array Ordenado;BuscaPresente;1;2000;166800
+100000;aleatoria;Array Ordenado;BuscaPresente;2;2000;198600
+100000;aleatoria;Array Ordenado;BuscaPresente;3;2000;165300
+100000;aleatoria;Array Ordenado;BuscaPresente;4;2000;164600
+100000;aleatoria;Array Ordenado;BuscaPresente;5;2000;224000
+100000;aleatoria;Array Ordenado;BuscaAusente;1;2000;193000
+100000;aleatoria;Array Ordenado;BuscaAusente;2;2000;177400
+100000;aleatoria;Array Ordenado;BuscaAusente;3;2000;176100
+100000;aleatoria;Array Ordenado;BuscaAusente;4;2000;174500
+100000;aleatoria;Array Ordenado;BuscaAusente;5;2000;213300
+100000;aleatoria;Array Ordenado;Insercao;1;10000;22563400
+100000;aleatoria;Array Ordenado;Insercao;2;10000;22566800
+100000;aleatoria;Array Ordenado;Insercao;3;10000;23875800
+100000;aleatoria;Array Ordenado;Insercao;4;10000;22608800
+100000;aleatoria;Array Ordenado;Insercao;5;10000;22432600
+100000;aleatoria;Array Ordenado;Remocao;1;10000;21007200
+100000;aleatoria;Array Ordenado;Remocao;2;10000;22548600
+100000;aleatoria;Array Ordenado;Remocao;3;10000;21085800
+100000;aleatoria;Array Ordenado;Remocao;4;10000;21137200
+100000;aleatoria;Array Ordenado;Remocao;5;10000;21138300
+100000;aleatoria;Array Ordenado;ConsultaIntervalo;1;200;2647300
+100000;aleatoria;Array Ordenado;ConsultaIntervalo;2;200;2555400
+100000;aleatoria;Array Ordenado;ConsultaIntervalo;3;200;2618600
+100000;aleatoria;Array Ordenado;ConsultaIntervalo;4;200;2517100
+100000;aleatoria;Array Ordenado;ConsultaIntervalo;5;200;2674300
+100000;aleatoria;Lista Encadeada Dupla;Construcao;1;100000;6005109900
+100000;aleatoria;Lista Encadeada Dupla;Construcao;2;100000;6003257300
+100000;aleatoria;Lista Encadeada Dupla;Construcao;3;100000;6035499000
+100000;aleatoria;Lista Encadeada Dupla;Construcao;4;100000;6020693300
+100000;aleatoria;Lista Encadeada Dupla;Construcao;5;100000;6007635000
+100000;aleatoria;Lista Encadeada Dupla;BuscaPresente;1;2000;116278300
+100000;aleatoria;Lista Encadeada Dupla;BuscaPresente;2;2000;116308100
+100000;aleatoria;Lista Encadeada Dupla;BuscaPresente;3;2000;116309700
+100000;aleatoria;Lista Encadeada Dupla;BuscaPresente;4;2000;116333100
+100000;aleatoria;Lista Encadeada Dupla;BuscaPresente;5;2000;115859200
+100000;aleatoria;Lista Encadeada Dupla;BuscaAusente;1;2000;232860300
+100000;aleatoria;Lista Encadeada Dupla;BuscaAusente;2;2000;231229500
+100000;aleatoria;Lista Encadeada Dupla;BuscaAusente;3;2000;233021300
+100000;aleatoria;Lista Encadeada Dupla;BuscaAusente;4;2000;232220400
+100000;aleatoria;Lista Encadeada Dupla;BuscaAusente;5;2000;232773300
+100000;aleatoria;Lista Encadeada Dupla;Insercao;1;10000;1202923400
+100000;aleatoria;Lista Encadeada Dupla;Insercao;2;10000;1214384000
+100000;aleatoria;Lista Encadeada Dupla;Insercao;3;10000;1198313100
+100000;aleatoria;Lista Encadeada Dupla;Insercao;4;10000;1199747400
+100000;aleatoria;Lista Encadeada Dupla;Insercao;5;10000;1178991500
+100000;aleatoria;Lista Encadeada Dupla;Remocao;1;10000;525022100
+100000;aleatoria;Lista Encadeada Dupla;Remocao;2;10000;524897800
+100000;aleatoria;Lista Encadeada Dupla;Remocao;3;10000;526723900
+100000;aleatoria;Lista Encadeada Dupla;Remocao;4;10000;525447900
+100000;aleatoria;Lista Encadeada Dupla;Remocao;5;10000;527941300
+100000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;1;200;46986600
+100000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;2;200;46958000
+100000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;3;200;47094700
+100000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;4;200;46963000
+100000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;5;200;47470700
+100000;aleatoria;Tabela Hash;Construcao;1;100000;2264700
+100000;aleatoria;Tabela Hash;Construcao;2;100000;726800
+100000;aleatoria;Tabela Hash;Construcao;3;100000;655100
+100000;aleatoria;Tabela Hash;Construcao;4;100000;666100
+100000;aleatoria;Tabela Hash;Construcao;5;100000;685500
+100000;aleatoria;Tabela Hash;BuscaPresente;1;2000;28000
+100000;aleatoria;Tabela Hash;BuscaPresente;2;2000;19500
+100000;aleatoria;Tabela Hash;BuscaPresente;3;2000;19100
+100000;aleatoria;Tabela Hash;BuscaPresente;4;2000;18500
+100000;aleatoria;Tabela Hash;BuscaPresente;5;2000;18700
+100000;aleatoria;Tabela Hash;BuscaAusente;1;2000;15700
+100000;aleatoria;Tabela Hash;BuscaAusente;2;2000;11200
+100000;aleatoria;Tabela Hash;BuscaAusente;3;2000;11400
+100000;aleatoria;Tabela Hash;BuscaAusente;4;2000;11100
+100000;aleatoria;Tabela Hash;BuscaAusente;5;2000;12300
+100000;aleatoria;Tabela Hash;Insercao;1;10000;71400
+100000;aleatoria;Tabela Hash;Insercao;2;10000;67400
+100000;aleatoria;Tabela Hash;Insercao;3;10000;68500
+100000;aleatoria;Tabela Hash;Insercao;4;10000;66900
+100000;aleatoria;Tabela Hash;Insercao;5;10000;65700
+100000;aleatoria;Tabela Hash;Remocao;1;10000;85700
+100000;aleatoria;Tabela Hash;Remocao;2;10000;90100
+100000;aleatoria;Tabela Hash;Remocao;3;10000;84000
+100000;aleatoria;Tabela Hash;Remocao;4;10000;83800
+100000;aleatoria;Tabela Hash;Remocao;5;10000;85300
+100000;aleatoria;Tabela Hash;ConsultaIntervalo;1;200;43892300
+100000;aleatoria;Tabela Hash;ConsultaIntervalo;2;200;42998200
+100000;aleatoria;Tabela Hash;ConsultaIntervalo;3;200;48502300
+100000;aleatoria;Tabela Hash;ConsultaIntervalo;4;200;53830800
+100000;aleatoria;Tabela Hash;ConsultaIntervalo;5;200;45597900
+100000;aleatoria;Arvore Binária de Busca;Construcao;1;100000;15477100
+100000;aleatoria;Arvore Binária de Busca;Construcao;2;100000;15969600
+100000;aleatoria;Arvore Binária de Busca;Construcao;3;100000;14670700
+100000;aleatoria;Arvore Binária de Busca;Construcao;4;100000;14811400
+100000;aleatoria;Arvore Binária de Busca;Construcao;5;100000;11087200
+100000;aleatoria;Arvore Binária de Busca;BuscaPresente;1;2000;252500
+100000;aleatoria;Arvore Binária de Busca;BuscaPresente;2;2000;250600
+100000;aleatoria;Arvore Binária de Busca;BuscaPresente;3;2000;278900
+100000;aleatoria;Arvore Binária de Busca;BuscaPresente;4;2000;260200
+100000;aleatoria;Arvore Binária de Busca;BuscaPresente;5;2000;248800
+100000;aleatoria;Arvore Binária de Busca;BuscaAusente;1;2000;280900
+100000;aleatoria;Arvore Binária de Busca;BuscaAusente;2;2000;303100
+100000;aleatoria;Arvore Binária de Busca;BuscaAusente;3;2000;359700
+100000;aleatoria;Arvore Binária de Busca;BuscaAusente;4;2000;293200
+100000;aleatoria;Arvore Binária de Busca;BuscaAusente;5;2000;295300
+100000;aleatoria;Arvore Binária de Busca;Insercao;1;10000;1518500
+100000;aleatoria;Arvore Binária de Busca;Insercao;2;10000;1686700
+100000;aleatoria;Arvore Binária de Busca;Insercao;3;10000;1433800
+100000;aleatoria;Arvore Binária de Busca;Insercao;4;10000;1505200
+100000;aleatoria;Arvore Binária de Busca;Insercao;5;10000;1470800
+100000;aleatoria;Arvore Binária de Busca;Remocao;1;10000;1439000
+100000;aleatoria;Arvore Binária de Busca;Remocao;2;10000;1275000
+100000;aleatoria;Arvore Binária de Busca;Remocao;3;10000;1264600
+100000;aleatoria;Arvore Binária de Busca;Remocao;4;10000;1258800
+100000;aleatoria;Arvore Binária de Busca;Remocao;5;10000;1251000
+100000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;1;200;212300
+100000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;2;200;187700
+100000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;3;200;187200
+100000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;4;200;185700
+100000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;5;200;183000
+100000;aleatoria;Arvore AVL;Construcao;1;100000;17004200
+100000;aleatoria;Arvore AVL;Construcao;2;100000;15746800
+100000;aleatoria;Arvore AVL;Construcao;3;100000;16509400
+100000;aleatoria;Arvore AVL;Construcao;4;100000;19841800
+100000;aleatoria;Arvore AVL;Construcao;5;100000;16456000
+100000;aleatoria;Arvore AVL;BuscaPresente;1;2000;317900
+100000;aleatoria;Arvore AVL;BuscaPresente;2;2000;242800
+100000;aleatoria;Arvore AVL;BuscaPresente;3;2000;225700
+100000;aleatoria;Arvore AVL;BuscaPresente;4;2000;222700
+100000;aleatoria;Arvore AVL;BuscaPresente;5;2000;235900
+100000;aleatoria;Arvore AVL;BuscaAusente;1;2000;268200
+100000;aleatoria;Arvore AVL;BuscaAusente;2;2000;261700
+100000;aleatoria;Arvore AVL;BuscaAusente;3;2000;315600
+100000;aleatoria;Arvore AVL;BuscaAusente;4;2000;265300
+100000;aleatoria;Arvore AVL;BuscaAusente;5;2000;261200
+100000;aleatoria;Arvore AVL;Insercao;1;10000;2008700
+100000;aleatoria;Arvore AVL;Insercao;2;10000;1996300
+100000;aleatoria;Arvore AVL;Insercao;3;10000;1911400
+100000;aleatoria;Arvore AVL;Insercao;4;10000;2046000
+100000;aleatoria;Arvore AVL;Insercao;5;10000;2023400
+100000;aleatoria;Arvore AVL;Remocao;1;10000;2531800
+100000;aleatoria;Arvore AVL;Remocao;2;10000;2540500
+100000;aleatoria;Arvore AVL;Remocao;3;10000;2312300
+100000;aleatoria;Arvore AVL;Remocao;4;10000;2587300
+100000;aleatoria;Arvore AVL;Remocao;5;10000;2536600
+100000;aleatoria;Arvore AVL;ConsultaIntervalo;1;200;137300
+100000;aleatoria;Arvore AVL;ConsultaIntervalo;2;200;157100
+100000;aleatoria;Arvore AVL;ConsultaIntervalo;3;200;143600
+100000;aleatoria;Arvore AVL;ConsultaIntervalo;4;200;135400
+100000;aleatoria;Arvore AVL;ConsultaIntervalo;5;200;131200
+100000;aleatoria;Arvore Rubro-Negra;Construcao;1;100000;22244500
+100000;aleatoria;Arvore Rubro-Negra;Construcao;2;100000;21249400
+100000;aleatoria;Arvore Rubro-Negra;Construcao;3;100000;24653100
+100000;aleatoria;Arvore Rubro-Negra;Construcao;4;100000;21023600
+100000;aleatoria;Arvore Rubro-Negra;Construcao;5;100000;21972300
+100000;aleatoria;Arvore Rubro-Negra;BuscaPresente;1;2000;256900
+100000;aleatoria;Arvore Rubro-Negra;BuscaPresente;2;2000;243200
+100000;aleatoria;Arvore Rubro-Negra;BuscaPresente;3;2000;259900
+100000;aleatoria;Arvore Rubro-Negra;BuscaPresente;4;2000;274600
+100000;aleatoria;Arvore Rubro-Negra;BuscaPresente;5;2000;260800
+100000;aleatoria;Arvore Rubro-Negra;BuscaAusente;1;2000;299600
+100000;aleatoria;Arvore Rubro-Negra;BuscaAusente;2;2000;299700
+100000;aleatoria;Arvore Rubro-Negra;BuscaAusente;3;2000;311300
+100000;aleatoria;Arvore Rubro-Negra;BuscaAusente;4;2000;283000
+100000;aleatoria;Arvore Rubro-Negra;BuscaAusente;5;2000;295500
+100000;aleatoria;Arvore Rubro-Negra;Insercao;1;10000;2547300
+100000;aleatoria;Arvore Rubro-Negra;Insercao;2;10000;2652600
+100000;aleatoria;Arvore Rubro-Negra;Insercao;3;10000;2671300
+100000;aleatoria;Arvore Rubro-Negra;Insercao;4;10000;3470000
+100000;aleatoria;Arvore Rubro-Negra;Insercao;5;10000;2605200
+100000;aleatoria;Arvore Rubro-Negra;Remocao;1;10000;1497500
+100000;aleatoria;Arvore Rubro-Negra;Remocao;2;10000;1490200
+100000;aleatoria;Arvore Rubro-Negra;Remocao;3;10000;1553700
+100000;aleatoria;Arvore Rubro-Negra;Remocao;4;10000;1487100
+100000;aleatoria;Arvore Rubro-Negra;Remocao;5;10000;1476400
+100000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;1;200;148800
+100000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;2;200;135200
+100000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;3;200;159200
+100000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;4;200;138300
+100000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;5;200;189400

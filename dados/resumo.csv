@@ -1,0 +1,379 @@
+tamanho;ordem;estrutura;teste;mediana_tempo_ms;mediana_tempo_por_op_ns
+5000;crescente;Array Normal;Construcao;1.690;337.92
+5000;crescente;Array Normal;BuscaPresente;0.729;364.25
+5000;crescente;Array Normal;BuscaAusente;1.287;643.40
+5000;crescente;Array Normal;Insercao;0.349;698.80
+5000;crescente;Array Normal;Remocao;0.227;454.60
+5000;crescente;Array Normal;ConsultaIntervalo;0.305;1526.50
+5000;crescente;Array Ordenado;Construcao;0.168;33.60
+5000;crescente;Array Ordenado;BuscaPresente;0.180;90.10
+5000;crescente;Array Ordenado;BuscaAusente;0.183;91.35
+5000;crescente;Array Ordenado;Insercao;1.296;2592.20
+5000;crescente;Array Ordenado;Remocao;0.080;160.20
+5000;crescente;Array Ordenado;ConsultaIntervalo;0.801;4003.50
+5000;crescente;Lista Encadeada Dupla;Construcao;20.052;4010.48
+5000;crescente;Lista Encadeada Dupla;BuscaPresente;6.171;3085.25
+5000;crescente;Lista Encadeada Dupla;BuscaAusente;11.574;5786.80
+5000;crescente;Lista Encadeada Dupla;Insercao;3.083;6165.80
+5000;crescente;Lista Encadeada Dupla;Remocao;1.403;2805.60
+5000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;1.169;5844.00
+5000;crescente;Tabela Hash;Construcao;0.370;74.04
+5000;crescente;Tabela Hash;BuscaPresente;0.091;45.65
+5000;crescente;Tabela Hash;BuscaAusente;0.057;28.45
+5000;crescente;Tabela Hash;Insercao;0.030;60.40
+5000;crescente;Tabela Hash;Remocao;0.040;80.20
+5000;crescente;Tabela Hash;ConsultaIntervalo;1.203;6016.50
+5000;crescente;Arvore Binária de Busca;Construcao;15.229;3045.80
+5000;crescente;Arvore Binária de Busca;BuscaPresente;5.491;2745.25
+5000;crescente;Arvore Binária de Busca;BuscaAusente;5.646;2823.20
+5000;crescente;Arvore Binária de Busca;Insercao;1.433;2865.20
+5000;crescente;Arvore Binária de Busca;Remocao;1.280;2560.80
+5000;crescente;Arvore Binária de Busca;ConsultaIntervalo;0.775;3874.00
+5000;crescente;Arvore AVL;Construcao;0.589;117.82
+5000;crescente;Arvore AVL;BuscaPresente;0.116;57.75
+5000;crescente;Arvore AVL;BuscaAusente;0.147;73.45
+5000;crescente;Arvore AVL;Insercao;0.114;227.80
+5000;crescente;Arvore AVL;Remocao;0.130;260.00
+5000;crescente;Arvore AVL;ConsultaIntervalo;0.121;603.50
+5000;crescente;Arvore Rubro-Negra;Construcao;0.800;159.94
+5000;crescente;Arvore Rubro-Negra;BuscaPresente;0.155;77.70
+5000;crescente;Arvore Rubro-Negra;BuscaAusente;0.176;87.95
+5000;crescente;Arvore Rubro-Negra;Insercao;0.170;340.80
+5000;crescente;Arvore Rubro-Negra;Remocao;0.129;258.60
+5000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;0.050;248.50
+5000;decrescente;Array Normal;Construcao;1.574;314.70
+5000;decrescente;Array Normal;BuscaPresente;0.704;351.80
+5000;decrescente;Array Normal;BuscaAusente;1.238;619.05
+5000;decrescente;Array Normal;Insercao;0.324;648.60
+5000;decrescente;Array Normal;Remocao;0.200;400.00
+5000;decrescente;Array Normal;ConsultaIntervalo;0.292;1458.50
+5000;decrescente;Array Ordenado;Construcao;0.475;95.06
+5000;decrescente;Array Ordenado;BuscaPresente;0.108;54.15
+5000;decrescente;Array Ordenado;BuscaAusente;0.108;54.15
+5000;decrescente;Array Ordenado;Insercao;0.074;148.60
+5000;decrescente;Array Ordenado;Remocao;0.055;109.80
+5000;decrescente;Array Ordenado;ConsultaIntervalo;0.126;630.50
+5000;decrescente;Lista Encadeada Dupla;Construcao;14.978;2995.50
+5000;decrescente;Lista Encadeada Dupla;BuscaPresente;5.891;2945.60
+5000;decrescente;Lista Encadeada Dupla;BuscaAusente;11.547;5773.30
+5000;decrescente;Lista Encadeada Dupla;Insercao;2.994;5987.00
+5000;decrescente;Lista Encadeada Dupla;Remocao;1.313;2625.80
+5000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;1.102;5509.00
+5000;decrescente;Tabela Hash;Construcao;0.029;5.84
+5000;decrescente;Tabela Hash;BuscaPresente;0.012;5.90
+5000;decrescente;Tabela Hash;BuscaAusente;0.011;5.45
+5000;decrescente;Tabela Hash;Insercao;0.008;16.00
+5000;decrescente;Tabela Hash;Remocao;0.013;25.00
+5000;decrescente;Tabela Hash;ConsultaIntervalo;1.177;5885.50
+5000;decrescente;Arvore Binária de Busca;Construcao;14.372;2874.44
+5000;decrescente;Arvore Binária de Busca;BuscaPresente;5.776;2888.05
+5000;decrescente;Arvore Binária de Busca;BuscaAusente;5.658;2829.00
+5000;decrescente;Arvore Binária de Busca;Insercao;1.478;2955.40
+5000;decrescente;Arvore Binária de Busca;Remocao;1.289;2577.80
+5000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;1.142;5711.00
+5000;decrescente;Arvore AVL;Construcao;0.296;59.12
+5000;decrescente;Arvore AVL;BuscaPresente;0.119;59.25
+5000;decrescente;Arvore AVL;BuscaAusente;0.125;62.55
+5000;decrescente;Arvore AVL;Insercao;0.046;91.20
+5000;decrescente;Arvore AVL;Remocao;0.058;115.60
+5000;decrescente;Arvore AVL;ConsultaIntervalo;0.087;436.50
+5000;decrescente;Arvore Rubro-Negra;Construcao;0.633;126.56
+5000;decrescente;Arvore Rubro-Negra;BuscaPresente;0.143;71.60
+5000;decrescente;Arvore Rubro-Negra;BuscaAusente;0.146;73.05
+5000;decrescente;Arvore Rubro-Negra;Insercao;0.070;139.00
+5000;decrescente;Arvore Rubro-Negra;Remocao;0.054;107.40
+5000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;0.068;338.50
+5000;aleatoria;Array Normal;Construcao;1.567;313.34
+5000;aleatoria;Array Normal;BuscaPresente;0.730;365.05
+5000;aleatoria;Array Normal;BuscaAusente;1.245;622.70
+5000;aleatoria;Array Normal;Insercao;0.330;660.60
+5000;aleatoria;Array Normal;Remocao;0.209;418.20
+5000;aleatoria;Array Normal;ConsultaIntervalo;1.200;5997.50
+5000;aleatoria;Array Ordenado;Construcao;0.500;99.98
+5000;aleatoria;Array Ordenado;BuscaPresente;0.098;48.80
+5000;aleatoria;Array Ordenado;BuscaAusente;0.109;54.40
+5000;aleatoria;Array Ordenado;Insercao;0.074;148.80
+5000;aleatoria;Array Ordenado;Remocao;0.065;129.20
+5000;aleatoria;Array Ordenado;ConsultaIntervalo;0.125;626.00
+5000;aleatoria;Lista Encadeada Dupla;Construcao;14.992;2998.40
+5000;aleatoria;Lista Encadeada Dupla;BuscaPresente;5.985;2992.25
+5000;aleatoria;Lista Encadeada Dupla;BuscaAusente;11.431;5715.50
+5000;aleatoria;Lista Encadeada Dupla;Insercao;2.984;5968.40
+5000;aleatoria;Lista Encadeada Dupla;Remocao;1.332;2663.60
+5000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;2.056;10281.50
+5000;aleatoria;Tabela Hash;Construcao;0.029;5.78
+5000;aleatoria;Tabela Hash;BuscaPresente;0.011;5.65
+5000;aleatoria;Tabela Hash;BuscaAusente;0.010;4.95
+5000;aleatoria;Tabela Hash;Insercao;0.006;12.40
+5000;aleatoria;Tabela Hash;Remocao;0.005;10.60
+5000;aleatoria;Tabela Hash;ConsultaIntervalo;1.206;6029.50
+5000;aleatoria;Arvore Binária de Busca;Construcao;0.226;45.12
+5000;aleatoria;Arvore Binária de Busca;BuscaPresente;0.097;48.45
+5000;aleatoria;Arvore Binária de Busca;BuscaAusente;0.112;55.85
+5000;aleatoria;Arvore Binária de Busca;Insercao;0.031;62.20
+5000;aleatoria;Arvore Binária de Busca;Remocao;0.042;83.20
+5000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;0.089;444.50
+5000;aleatoria;Arvore AVL;Construcao;0.422;84.30
+5000;aleatoria;Arvore AVL;BuscaPresente;0.093;46.25
+5000;aleatoria;Arvore AVL;BuscaAusente;0.115;57.35
+5000;aleatoria;Arvore AVL;Insercao;0.050;99.80
+5000;aleatoria;Arvore AVL;Remocao;0.079;157.80
+5000;aleatoria;Arvore AVL;ConsultaIntervalo;0.063;313.00
+5000;aleatoria;Arvore Rubro-Negra;Construcao;0.677;135.40
+5000;aleatoria;Arvore Rubro-Negra;BuscaPresente;0.109;54.50
+5000;aleatoria;Arvore Rubro-Negra;BuscaAusente;0.125;62.70
+5000;aleatoria;Arvore Rubro-Negra;Insercao;0.073;146.20
+5000;aleatoria;Arvore Rubro-Negra;Remocao;0.038;76.00
+5000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;0.067;336.00
+10000;crescente;Array Normal;Construcao;6.126;612.58
+10000;crescente;Array Normal;BuscaPresente;1.363;681.35
+10000;crescente;Array Normal;BuscaAusente;2.466;1232.95
+10000;crescente;Array Normal;Insercao;1.410;1410.30
+10000;crescente;Array Normal;Remocao;0.799;798.90
+10000;crescente;Array Normal;ConsultaIntervalo;0.539;2697.00
+10000;crescente;Array Ordenado;Construcao;0.150;15.02
+10000;crescente;Array Ordenado;BuscaPresente;0.103;51.25
+10000;crescente;Array Ordenado;BuscaAusente;0.107;53.35
+10000;crescente;Array Ordenado;Insercao;0.223;222.70
+10000;crescente;Array Ordenado;Remocao;0.184;183.50
+10000;crescente;Array Ordenado;ConsultaIntervalo;0.250;1251.00
+10000;crescente;Lista Encadeada Dupla;Construcao;59.273;5927.28
+10000;crescente;Lista Encadeada Dupla;BuscaPresente;11.402;5700.90
+10000;crescente;Lista Encadeada Dupla;BuscaAusente;22.909;11454.70
+10000;crescente;Lista Encadeada Dupla;Insercao;11.865;11865.10
+10000;crescente;Lista Encadeada Dupla;Remocao;5.267;5266.60
+10000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;2.189;10942.50
+10000;crescente;Tabela Hash;Construcao;0.051;5.07
+10000;crescente;Tabela Hash;BuscaPresente;0.011;5.50
+10000;crescente;Tabela Hash;BuscaAusente;0.009;4.55
+10000;crescente;Tabela Hash;Insercao;0.008;7.60
+10000;crescente;Tabela Hash;Remocao;0.007;6.90
+10000;crescente;Tabela Hash;ConsultaIntervalo;2.341;11705.50
+10000;crescente;Arvore Binária de Busca;Construcao;57.884;5788.37
+10000;crescente;Arvore Binária de Busca;BuscaPresente;11.129;5564.55
+10000;crescente;Arvore Binária de Busca;BuscaAusente;11.237;5618.35
+10000;crescente;Arvore Binária de Busca;Insercao;5.637;5636.70
+10000;crescente;Arvore Binária de Busca;Remocao;4.954;4953.70
+10000;crescente;Arvore Binária de Busca;ConsultaIntervalo;1.973;9867.00
+10000;crescente;Arvore AVL;Construcao;0.493;49.34
+10000;crescente;Arvore AVL;BuscaPresente;0.122;60.90
+10000;crescente;Arvore AVL;BuscaAusente;0.135;67.35
+10000;crescente;Arvore AVL;Insercao;0.106;106.20
+10000;crescente;Arvore AVL;Remocao;0.135;135.00
+10000;crescente;Arvore AVL;ConsultaIntervalo;0.048;239.50
+10000;crescente;Arvore Rubro-Negra;Construcao;1.130;112.99
+10000;crescente;Arvore Rubro-Negra;BuscaPresente;0.147;73.25
+10000;crescente;Arvore Rubro-Negra;BuscaAusente;0.165;82.60
+10000;crescente;Arvore Rubro-Negra;Insercao;0.153;153.30
+10000;crescente;Arvore Rubro-Negra;Remocao;0.096;95.70
+10000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;0.050;248.00
+10000;decrescente;Array Normal;Construcao;6.145;614.47
+10000;decrescente;Array Normal;BuscaPresente;1.357;678.70
+10000;decrescente;Array Normal;BuscaAusente;2.455;1227.45
+10000;decrescente;Array Normal;Insercao;1.411;1411.40
+10000;decrescente;Array Normal;Remocao;0.795;794.90
+10000;decrescente;Array Normal;ConsultaIntervalo;0.567;2835.50
+10000;decrescente;Array Ordenado;Construcao;1.699;169.94
+10000;decrescente;Array Ordenado;BuscaPresente;0.104;51.75
+10000;decrescente;Array Ordenado;BuscaAusente;0.105;52.30
+10000;decrescente;Array Ordenado;Insercao;0.227;226.50
+10000;decrescente;Array Ordenado;Remocao;0.190;190.30
+10000;decrescente;Array Ordenado;ConsultaIntervalo;0.251;1255.00
+10000;decrescente;Lista Encadeada Dupla;Construcao;59.197;5919.72
+10000;decrescente;Lista Encadeada Dupla;BuscaPresente;11.330;5664.85
+10000;decrescente;Lista Encadeada Dupla;BuscaAusente;22.724;11361.90
+10000;decrescente;Lista Encadeada Dupla;Insercao;11.859;11859.20
+10000;decrescente;Lista Encadeada Dupla;Remocao;5.260;5259.60
+10000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;2.185;10923.50
+10000;decrescente;Tabela Hash;Construcao;0.049;4.86
+10000;decrescente;Tabela Hash;BuscaPresente;0.010;5.00
+10000;decrescente;Tabela Hash;BuscaAusente;0.009;4.35
+10000;decrescente;Tabela Hash;Insercao;0.007;7.40
+10000;decrescente;Tabela Hash;Remocao;0.007;6.60
+10000;decrescente;Tabela Hash;ConsultaIntervalo;2.332;11661.50
+10000;decrescente;Arvore Binária de Busca;Construcao;56.904;5690.41
+10000;decrescente;Arvore Binária de Busca;BuscaPresente;11.374;5687.05
+10000;decrescente;Arvore Binária de Busca;BuscaAusente;11.296;5647.85
+10000;decrescente;Arvore Binária de Busca;Insercao;5.840;5840.00
+10000;decrescente;Arvore Binária de Busca;Remocao;4.953;4952.90
+10000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;2.117;10584.00
+10000;decrescente;Arvore AVL;Construcao;0.557;55.71
+10000;decrescente;Arvore AVL;BuscaPresente;0.124;62.10
+10000;decrescente;Arvore AVL;BuscaAusente;0.144;72.00
+10000;decrescente;Arvore AVL;Insercao;0.101;101.10
+10000;decrescente;Arvore AVL;Remocao;0.123;122.80
+10000;decrescente;Arvore AVL;ConsultaIntervalo;0.047;232.50
+10000;decrescente;Arvore Rubro-Negra;Construcao;1.176;117.55
+10000;decrescente;Arvore Rubro-Negra;BuscaPresente;0.137;68.60
+10000;decrescente;Arvore Rubro-Negra;BuscaAusente;0.152;76.00
+10000;decrescente;Arvore Rubro-Negra;Insercao;0.143;142.60
+10000;decrescente;Arvore Rubro-Negra;Remocao;0.069;69.10
+10000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;0.047;235.50
+10000;aleatoria;Array Normal;Construcao;6.121;612.14
+10000;aleatoria;Array Normal;BuscaPresente;1.355;677.70
+10000;aleatoria;Array Normal;BuscaAusente;2.459;1229.70
+10000;aleatoria;Array Normal;Insercao;1.409;1409.30
+10000;aleatoria;Array Normal;Remocao;0.795;795.10
+10000;aleatoria;Array Normal;ConsultaIntervalo;2.787;13934.50
+10000;aleatoria;Array Ordenado;Construcao;1.358;135.81
+10000;aleatoria;Array Ordenado;BuscaPresente;0.107;53.40
+10000;aleatoria;Array Ordenado;BuscaAusente;0.115;57.40
+10000;aleatoria;Array Ordenado;Insercao;0.228;228.40
+10000;aleatoria;Array Ordenado;Remocao;0.198;197.60
+10000;aleatoria;Array Ordenado;ConsultaIntervalo;0.250;1250.00
+10000;aleatoria;Lista Encadeada Dupla;Construcao;59.236;5923.61
+10000;aleatoria;Lista Encadeada Dupla;BuscaPresente;11.418;5708.80
+10000;aleatoria;Lista Encadeada Dupla;BuscaAusente;22.786;11392.80
+10000;aleatoria;Lista Encadeada Dupla;Insercao;11.908;11907.60
+10000;aleatoria;Lista Encadeada Dupla;Remocao;5.256;5256.40
+10000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;4.473;22367.00
+10000;aleatoria;Tabela Hash;Construcao;0.050;5.02
+10000;aleatoria;Tabela Hash;BuscaPresente;0.016;7.80
+10000;aleatoria;Tabela Hash;BuscaAusente;0.009;4.35
+10000;aleatoria;Tabela Hash;Insercao;0.007;7.30
+10000;aleatoria;Tabela Hash;Remocao;0.012;12.20
+10000;aleatoria;Tabela Hash;ConsultaIntervalo;2.386;11928.00
+10000;aleatoria;Arvore Binária de Busca;Construcao;0.524;52.36
+10000;aleatoria;Arvore Binária de Busca;BuscaPresente;0.115;57.60
+10000;aleatoria;Arvore Binária de Busca;BuscaAusente;0.131;65.50
+10000;aleatoria;Arvore Binária de Busca;Insercao;0.068;68.30
+10000;aleatoria;Arvore Binária de Busca;Remocao;0.062;61.80
+10000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;0.098;488.00
+10000;aleatoria;Arvore AVL;Construcao;0.929;92.85
+10000;aleatoria;Arvore AVL;BuscaPresente;0.107;53.35
+10000;aleatoria;Arvore AVL;BuscaAusente;0.129;64.50
+10000;aleatoria;Arvore AVL;Insercao;0.108;108.40
+10000;aleatoria;Arvore AVL;Remocao;0.138;138.20
+10000;aleatoria;Arvore AVL;ConsultaIntervalo;0.069;345.50
+10000;aleatoria;Arvore Rubro-Negra;Construcao;1.369;136.88
+10000;aleatoria;Arvore Rubro-Negra;BuscaPresente;0.124;61.75
+10000;aleatoria;Arvore Rubro-Negra;BuscaAusente;0.142;71.00
+10000;aleatoria;Arvore Rubro-Negra;Insercao;0.155;154.80
+10000;aleatoria;Arvore Rubro-Negra;Remocao;0.080;80.10
+10000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;0.076;378.00
+100000;crescente;Array Normal;Construcao;602.964;6029.64
+100000;crescente;Array Normal;BuscaPresente;13.256;6627.75
+100000;crescente;Array Normal;BuscaAusente;24.132;12065.90
+100000;crescente;Array Normal;Insercao;134.000;13400.00
+100000;crescente;Array Normal;Remocao;88.244;8824.37
+100000;crescente;Array Normal;ConsultaIntervalo;5.593;27966.50
+100000;crescente;Array Ordenado;Construcao;2.001;20.01
+100000;crescente;Array Ordenado;BuscaPresente;0.149;74.45
+100000;crescente;Array Ordenado;BuscaAusente;0.147;73.50
+100000;crescente;Array Ordenado;Insercao;23.489;2348.94
+100000;crescente;Array Ordenado;Remocao;21.076;2107.59
+100000;crescente;Array Ordenado;ConsultaIntervalo;2.504;12521.00
+100000;crescente;Lista Encadeada Dupla;Construcao;5960.581;59605.81
+100000;crescente;Lista Encadeada Dupla;BuscaPresente;115.560;57779.90
+100000;crescente;Lista Encadeada Dupla;BuscaAusente;231.279;115639.70
+100000;crescente;Lista Encadeada Dupla;Insercao;1198.751;119875.08
+100000;crescente;Lista Encadeada Dupla;Remocao;525.585;52558.51
+100000;crescente;Lista Encadeada Dupla;ConsultaIntervalo;22.126;110628.50
+100000;crescente;Tabela Hash;Construcao;0.504;5.04
+100000;crescente;Tabela Hash;BuscaPresente;0.040;20.20
+100000;crescente;Tabela Hash;BuscaAusente;0.013;6.55
+100000;crescente;Tabela Hash;Insercao;0.070;7.02
+100000;crescente;Tabela Hash;Remocao;0.125;12.46
+100000;crescente;Tabela Hash;ConsultaIntervalo;31.087;155432.50
+100000;crescente;Arvore Binária de Busca;Construcao;5889.847;58898.47
+100000;crescente;Arvore Binária de Busca;BuscaPresente;112.263;56131.45
+100000;crescente;Arvore Binária de Busca;BuscaAusente;112.412;56206.20
+100000;crescente;Arvore Binária de Busca;Insercao;598.364;59836.38
+100000;crescente;Arvore Binária de Busca;Remocao;514.219;51421.86
+100000;crescente;Arvore Binária de Busca;ConsultaIntervalo;20.351;101755.50
+100000;crescente;Arvore AVL;Construcao;6.472;64.72
+100000;crescente;Arvore AVL;BuscaPresente;0.252;126.20
+100000;crescente;Arvore AVL;BuscaAusente;0.272;136.15
+100000;crescente;Arvore AVL;Insercao;1.862;186.21
+100000;crescente;Arvore AVL;Remocao;1.770;176.99
+100000;crescente;Arvore AVL;ConsultaIntervalo;0.100;501.50
+100000;crescente;Arvore Rubro-Negra;Construcao;17.298;172.98
+100000;crescente;Arvore Rubro-Negra;BuscaPresente;0.296;147.85
+100000;crescente;Arvore Rubro-Negra;BuscaAusente;0.629;314.40
+100000;crescente;Arvore Rubro-Negra;Insercao;3.022;302.21
+100000;crescente;Arvore Rubro-Negra;Remocao;1.123;112.34
+100000;crescente;Arvore Rubro-Negra;ConsultaIntervalo;0.101;505.50
+100000;decrescente;Array Normal;Construcao;627.304;6273.04
+100000;decrescente;Array Normal;BuscaPresente;13.808;6904.20
+100000;decrescente;Array Normal;BuscaAusente;25.287;12643.65
+100000;decrescente;Array Normal;Insercao;133.103;13310.34
+100000;decrescente;Array Normal;Remocao;89.286;8928.59
+100000;decrescente;Array Normal;ConsultaIntervalo;5.688;28440.50
+100000;decrescente;Array Ordenado;Construcao;220.255;2202.55
+100000;decrescente;Array Ordenado;BuscaPresente;0.166;83.10
+100000;decrescente;Array Ordenado;BuscaAusente;0.175;87.40
+100000;decrescente;Array Ordenado;Insercao;22.366;2236.55
+100000;decrescente;Array Ordenado;Remocao;20.938;2093.77
+100000;decrescente;Array Ordenado;ConsultaIntervalo;2.554;12769.00
+100000;decrescente;Lista Encadeada Dupla;Construcao;6003.670;60036.70
+100000;decrescente;Lista Encadeada Dupla;BuscaPresente;116.075;58037.55
+100000;decrescente;Lista Encadeada Dupla;BuscaAusente;232.135;116067.40
+100000;decrescente;Lista Encadeada Dupla;Insercao;1201.758;120175.76
+100000;decrescente;Lista Encadeada Dupla;Remocao;526.023;52602.25
+100000;decrescente;Lista Encadeada Dupla;ConsultaIntervalo;22.235;111174.00
+100000;decrescente;Tabela Hash;Construcao;0.652;6.52
+100000;decrescente;Tabela Hash;BuscaPresente;0.034;17.15
+100000;decrescente;Tabela Hash;BuscaAusente;0.013;6.65
+100000;decrescente;Tabela Hash;Insercao;0.070;6.95
+100000;decrescente;Tabela Hash;Remocao;0.138;13.75
+100000;decrescente;Tabela Hash;ConsultaIntervalo;31.780;158898.50
+100000;decrescente;Arvore Binária de Busca;Construcao;5898.220;58982.20
+100000;decrescente;Arvore Binária de Busca;BuscaPresente;116.833;58416.40
+100000;decrescente;Arvore Binária de Busca;BuscaAusente;116.071;58035.55
+100000;decrescente;Arvore Binária de Busca;Insercao;579.163;57916.28
+100000;decrescente;Arvore Binária de Busca;Remocao;514.938;51493.83
+100000;decrescente;Arvore Binária de Busca;ConsultaIntervalo;23.890;119451.00
+100000;decrescente;Arvore AVL;Construcao;7.219;72.19
+100000;decrescente;Arvore AVL;BuscaPresente;0.282;141.05
+100000;decrescente;Arvore AVL;BuscaAusente;0.315;157.45
+100000;decrescente;Arvore AVL;Insercao;1.976;197.60
+100000;decrescente;Arvore AVL;Remocao;3.099;309.86
+100000;decrescente;Arvore AVL;ConsultaIntervalo;0.093;466.50
+100000;decrescente;Arvore Rubro-Negra;Construcao;17.921;179.21
+100000;decrescente;Arvore Rubro-Negra;BuscaPresente;0.344;171.95
+100000;decrescente;Arvore Rubro-Negra;BuscaAusente;0.625;312.65
+100000;decrescente;Arvore Rubro-Negra;Insercao;3.512;351.18
+100000;decrescente;Arvore Rubro-Negra;Remocao;1.077;107.73
+100000;decrescente;Arvore Rubro-Negra;ConsultaIntervalo;0.115;573.00
+100000;aleatoria;Array Normal;Construcao;630.385;6303.85
+100000;aleatoria;Array Normal;BuscaPresente;13.995;6997.30
+100000;aleatoria;Array Normal;BuscaAusente;25.086;12543.15
+100000;aleatoria;Array Normal;Insercao;133.904;13390.36
+100000;aleatoria;Array Normal;Remocao;86.583;8658.28
+100000;aleatoria;Array Normal;ConsultaIntervalo;32.062;160311.00
+100000;aleatoria;Array Ordenado;Construcao;118.092;1180.92
+100000;aleatoria;Array Ordenado;BuscaPresente;0.167;83.40
+100000;aleatoria;Array Ordenado;BuscaAusente;0.177;88.70
+100000;aleatoria;Array Ordenado;Insercao;22.567;2256.68
+100000;aleatoria;Array Ordenado;Remocao;21.137;2113.72
+100000;aleatoria;Array Ordenado;ConsultaIntervalo;2.619;13093.00
+100000;aleatoria;Lista Encadeada Dupla;Construcao;6007.635;60076.35
+100000;aleatoria;Lista Encadeada Dupla;BuscaPresente;116.308;58154.05
+100000;aleatoria;Lista Encadeada Dupla;BuscaAusente;232.773;116386.65
+100000;aleatoria;Lista Encadeada Dupla;Insercao;1199.747;119974.74
+100000;aleatoria;Lista Encadeada Dupla;Remocao;525.448;52544.79
+100000;aleatoria;Lista Encadeada Dupla;ConsultaIntervalo;46.987;234933.00
+100000;aleatoria;Tabela Hash;Construcao;0.686;6.86
+100000;aleatoria;Tabela Hash;BuscaPresente;0.019;9.55
+100000;aleatoria;Tabela Hash;BuscaAusente;0.011;5.70
+100000;aleatoria;Tabela Hash;Insercao;0.067;6.74
+100000;aleatoria;Tabela Hash;Remocao;0.085;8.53
+100000;aleatoria;Tabela Hash;ConsultaIntervalo;45.598;227989.50
+100000;aleatoria;Arvore Binária de Busca;Construcao;14.811;148.11
+100000;aleatoria;Arvore Binária de Busca;BuscaPresente;0.253;126.25
+100000;aleatoria;Arvore Binária de Busca;BuscaAusente;0.295;147.65
+100000;aleatoria;Arvore Binária de Busca;Insercao;1.505;150.52
+100000;aleatoria;Arvore Binária de Busca;Remocao;1.265;126.46
+100000;aleatoria;Arvore Binária de Busca;ConsultaIntervalo;0.187;936.00
+100000;aleatoria;Arvore AVL;Construcao;16.509;165.09
+100000;aleatoria;Arvore AVL;BuscaPresente;0.236;117.95
+100000;aleatoria;Arvore AVL;BuscaAusente;0.265;132.65
+100000;aleatoria;Arvore AVL;Insercao;2.009;200.87
+100000;aleatoria;Arvore AVL;Remocao;2.537;253.66
+100000;aleatoria;Arvore AVL;ConsultaIntervalo;0.137;686.50
+100000;aleatoria;Arvore Rubro-Negra;Construcao;21.972;219.72
+100000;aleatoria;Arvore Rubro-Negra;BuscaPresente;0.260;129.95
+100000;aleatoria;Arvore Rubro-Negra;BuscaAusente;0.300;149.80
+100000;aleatoria;Arvore Rubro-Negra;Insercao;2.653;265.26
+100000;aleatoria;Arvore Rubro-Negra;Remocao;1.490;149.02
+100000;aleatoria;Arvore Rubro-Negra;ConsultaIntervalo;0.149;744.00
